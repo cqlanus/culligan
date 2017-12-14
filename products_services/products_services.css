@@ -1,0 +1,577 @@
+  p {
+    font-family: 'AvenirLT-Book', sans-serif !important;
+  }
+  h2 {
+    font-family: 'AvenirLT-Black', sans-serif !important;
+    color: #005795;
+  }
+  .full-width-image-coffee {
+    background: url('/getmedia/6992939f-0ebf-494c-918b-e70439678f81/tastier_hq.aspx') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height:700px;
+    width:100%;
+    z-index:-100;
+    margin-top: 5%;
+  }
+
+  .wide-btn {
+    padding: 0.5em 3em;
+    border-radius: 22px; 
+    border: #0083CA solid 1px;
+  }
+
+  .blue-btn {
+    color: #0081CD;
+  }
+
+  .btn-thin{
+    font-size:18px;
+    line-height:38px;
+    color:#0083CA;
+    border: 1px solid #0083CA;
+    border-radius: 22px;
+    display:block;
+    padding: 0 75px;
+  }
+
+  .spaced-header {
+    letter-spacing: 0.3em;
+  }
+
+  .hero-image {
+    background: url("/getmedia/342500e8-331c-427a-a97c-892aef10b74d/products-services-hero-hq.aspx") no-repeat center right;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .hero-block {
+    padding-top: 3%;
+    position: absolute;
+    z-index: 1;
+    padding-left: 10%;
+    width: 45%;
+  }
+
+  .hero-title {
+    font-size: 61px;
+    color: #08385b;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    padding-right:  15%;
+    line-height: 160%;
+    color: #545454;
+  }
+
+  .cta-arrow{
+    position:absolute;
+    top: 910px;
+    left: 137px; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 32.5px 0 32.5px;
+    border-color: #f8e61c transparent transparent transparent;
+  } 
+
+  .filtration-row-lg {
+    padding-top: 100px;
+  }
+
+  .small-filtration-row,
+  .small-softness-row {
+    padding-top:100px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .filtration-block {
+    z-index:2;
+    background:white;
+    margin-top:5%;
+    padding-bottom:3%;
+    position: relative;
+    /* padding-right:  20%; */
+    left: 10%;
+  }
+
+  .filtration-water-sidebar {
+    top: 60%;
+    left: 95%;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .filtration-img {
+    position: relative;
+    z-index: 1;
+  }
+
+  .filtration-image {
+    background: url("/getmedia/adf83acc-8510-43e0-95ff-3e7d9f67aa03/filtration-image-768.aspx") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .filtration-title {
+    padding-left: 5%;
+    width:40%; 
+    font-size:30px;
+    position: relative;
+    top: 50px;
+  }
+
+  .filtration-title,
+  .softener-title-sm,
+  .softener-title,
+  .filtration-title-lg,
+  .tastier-title {
+    color: #005795 !important;
+  }
+
+  .softener-container {
+    padding-top: 10%;
+  }
+
+  .softener-img-container {
+    position: relative;
+  }
+
+  .softener-text-container {
+    z-index:1;
+    margin-top:5%;
+    position: relative;
+    right: 10%;
+  }
+
+  .softening-img {
+    width: 110%;
+  }
+
+  .softener-image {
+    background: url("/getmedia/860fb5a8-8f61-45e5-a755-b2924e786089/water-softener-flipped.aspx") no-repeat top center;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .icon-quote-softener-sm {
+    position: relative;
+    left: 90px;
+    top: 10px;
+    opacity: 0.3;
+  }
+
+  .softener-title-sm {
+    padding-left: 5%;
+    width:50%; 
+    font-size:30px;
+    position: relative;
+    top: 50px;
+  }
+
+  .piggy-img {
+    opacity: 0.3;
+    position: relative;
+    top: 10px;
+  }
+
+  .cost-efficient {
+    font-size: 18px;
+    color: #aaa;
+  }
+
+  .softener-text-sm {
+    font-size:16px; 
+    line-height: 160%;
+    padding: 2% 5% 0 20% ;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .softener-button-sm {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .softener-title {
+    padding-right:45%; 
+    font-size:36px; 
+    line-height:1.2em
+  }
+
+  .icon-quote-softener {
+    position: relative;
+    left: 90px;
+    opacity: 0.3;
+  }
+
+  .softener-text {
+    padding-left:30%;
+    font-size:18px;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .softener-text p {
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+
+  .softener-button {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30%; 
+    margin-top: 5%;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .tastier-coffee {
+    position: relative;
+    top: 95px;
+    left: 340px;
+    width: 25%;
+  }
+
+  .tastier-block {
+    z-index:1; 
+    margin-top:5%;
+    text-align:left;
+  }
+
+  .tastier-title {
+    font-size:36px;
+  }
+
+  .tastier-text {
+     font-size:16px; 
+     line-height: 160%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px 250px;
+    grid-gap: 15px;
+    grid-template-areas:
+    "a a b c"
+    "d e b f"
+  }
+
+  .container-grid {
+    padding-top: 10%;
+  }
+
+  .grid-item {
+    height: 275px;
+    width: calc(50% - 10px) !important;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .at-service {
+    grid-area:  a;
+    background-color: #08385B;
+  }
+
+  .drinks {
+    background:  url("/getmedia/342bf71f-4747-4c89-83bc-6b18782f9304/drinks.aspx") no-repeat center center;  
+    background-size: cover;
+    width: 50% !important;
+    margin-left: 0;
+  }
+
+  .salt-delivery {
+    grid-area:  b;
+    background:  url("/getmedia/323a1f18-aefd-468e-a01f-23708f3e41c8/salt.aspx") no-repeat center center;
+    height: 560px;
+    background-size: cover;  
+  }
+
+  .bottle-delivery {
+    grid-area:  c;
+    background: url("/CulliganCom/media/images/New_Design/bottle.png") no-repeat center center;
+    background-size: cover;
+  /*   float: right !important; 
+    width: calc(50%) !important; */
+  }
+
+  .ice {
+    grid-area:  d;
+    background: url("/CulliganCom/media/images/New_Design/ice.png") no-repeat center center;
+    float: left;
+    background-size: cover;
+  }
+
+  .water-exchange {
+    grid-area:  e;
+    background-color: #0083CA;
+    float: left;
+  }
+
+  .water-coolers {
+    grid-area:  f;
+    background-color: #B0D235;
+    /* float: right; */
+  }
+
+  .container-grid-sm {
+    padding-top: 320px;
+  }
+
+  .at-service-sm {
+    background-color: #08385B;
+  }
+
+  .at-service-sm .grid-text p {
+    line-height: 24px;
+  }
+
+  .service-grid-title {
+    font-size: 28px;
+  }
+
+  .at-service-img {
+    background: url('/CulliganCom/media/images/New_Design/drinks.png') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    margin-left: -15px;
+    width: 100vw;
+  }
+
+  .water-exchange-sm {
+    background-color: #0083CA;
+  }
+
+  .salt-delivery-sm {
+    background-color: #bbb;
+  }
+
+  .bottle-delivery-sm {
+    background-color: #005795;
+  }
+
+  .water-coolers-sm {
+    background-color: #B0D235;
+  }
+
+  .grid-item-sm {
+    color: white;
+    font-size: 16px;
+    padding: 4%;
+    margin-bottom: 2%;
+    position: relative;
+    top: -120px;
+  }
+
+  .arrow {
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: 1700px) {
+    .full-width-image-coffee,
+    .hero-image {
+      height:  600px;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    .full-width-image-coffee,
+    .hero-image {
+      height: 500px;
+    }
+    .hero-block {
+      padding-left: 10%;    
+    }
+    .hero-title {
+      font-size: 48px;
+    }
+    .hero-text {
+      font-size: 20px;
+      padding-right: 10%;
+      line-height: 160%;
+    }
+    .tastier-coffee {
+      top: 25px;
+      width: 22%;
+    } 
+    .softening-img {
+      width: 150%;
+    }
+
+    .cta-arrow {
+      top: 810px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .full-width-image-coffee,
+    .hero-image {
+      height:  400px;
+    }
+    .hero-block {
+      padding-left: 5%;
+      width: 40%;
+    }
+    .hero-text {
+      font-size: 20px;
+      line-height: 30px;
+      padding-right: 0%;
+    }
+
+    .cta-arrow {
+      top: 720px;
+    }
+
+    .filtration-row-lg {
+      padding-top: 0;
+    }
+    .tastier-coffee {
+      display: none;
+    } 
+
+
+  }
+
+  @media screen and (max-width: 991px) {
+    .full-width-image-coffee {
+      background: url('/getmedia/8f5976b6-593d-4db8-8cd1-c78b3f7ee249/tastier_992.aspx') no-repeat center center;
+    }
+
+    .hero-image {
+      background: url('/getmedia/57c6e040-f607-4d84-a7ad-ea89103a6f9b/products-services-hero-992.aspx') no-repeat center right;
+    }
+
+    .tastier-block {
+      margin-top: 420px;
+    }
+
+    .tastier-title {
+      font-size: 30px;
+    }
+
+    .tastier-text {
+      font-size: 14px;
+    }
+
+    .tastier-coffee {
+      display: inline;
+      width: 25%;
+      top: -310px;
+      left: 250px;
+    }
+
+    .cta-arrow {
+      left: 20px;
+      top: 570px;
+    }
+
+    .grid-text {
+      font-size: 24px;
+    }
+
+    .form-container {
+      margin-top: -120px !important;
+    }
+
+    .small-filtration-row,
+    .small-softness-row {
+      padding-top: 0;
+    }
+
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .filtration-image {
+      background: url('/getmedia/adf83acc-8510-43e0-95ff-3e7d9f67aa03/filtration-image-768.aspx') no-repeat center center;
+    }
+
+    .full-width-image-coffee,
+    .hero-image {
+      height:  300px;
+    }
+    .hero-block {
+      padding-left: 5%;
+      width: 40%;
+    }
+
+    .hero-title {
+      font-size: 28px;
+    }
+
+    .hero-text {
+      font-size: 14px;
+      line-height: 120%;
+      padding-right: 15%;
+    }
+
+    .cta-arrow {
+      top: 470px;
+    }
+
+    .tastier-block {
+      margin-top: 320px;
+    }
+
+    .tastier-title {
+      width: 50%;
+    }
+
+    .tastier-coffee {
+      top: -360px;
+      width: 40%;
+      left: 150px;
+    }
+    .small-filtration-row, .small-softness-row {
+      padding-top: 0;
+    }
+
+    .icon-quote-softener-sm {
+      left: 10%;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .softener-image {
+      background: url('/getmedia/0d9f132c-6a3f-460c-a5f4-b7e2a4b0b46e/water-softener-480.aspx') no-repeat center center;
+    }
+    .hero-block {
+      padding-left: 5%;
+      width: 100%;
+      margin-top: 320px;
+    }
+
+    .hero-title {
+      font-size: 36px;
+      padding-right: 50%;
+    }
+
+    .hero-text {
+      font-size: 16px;
+      padding-right:  10%;
+      line-height: 100%;
+    }
+
+    .tastier-coffee {
+      top: -360px;
+      left: 130px;
+      width: 40%;
+    }
+
+    .container-grid, .small-filtration-row {
+      padding-top: 250px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .tastier-coffee {
+      top: -350px;
+      left: 110px;
+      width: 40%;
+    }
+    .icon-quote-softener-sm {
+      left: 5%;
+    }
+  }

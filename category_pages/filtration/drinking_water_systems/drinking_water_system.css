@@ -1,0 +1,74 @@
+.hero-background {
+	background: url('/getmedia/b28082d6-9725-4d3a-89cf-0aade8863bbd/drinking-water-hero-lg.aspx') no-repeat center center;
+}
+
+.infographic-below-graphics {
+	display: none !important;
+}
+
+.products-grid-btn {
+	margin: 0 !important;
+}
+
+.services-section {
+	display: none !important;
+}
+
+.reverse-osmosis-img {
+	background: url('/getmedia/090f9efc-0104-470f-9cda-a03904f81a85/reverse-osmosis-left-hand.aspx') no-repeat center center;
+}
+
+.reverse-osmosis {
+    background-color: #0083CA;
+    color: white;
+    padding: 30px 50px;
+    font-family: Avenir-Black, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.reverse-osmosis-container {
+    margin: 50px auto;
+}
+
+.how-ro-img {
+	background: url('/getmedia/3b0abd4a-6e2a-4961-b1bd-22f894e9cd29/how-ro.aspx') no-repeat center center;
+}
+
+.under-sink-img {
+	background: url('/getmedia/e6989e1d-4441-4d43-93d3-efa2a395e012/under-sink.aspx') no-repeat center center;
+}
+
+.above-standard-img {
+	background: url('/getmedia/1dcf5ace-3866-45d5-8916-8e188206346b/above-standard.aspx') no-repeat center center;
+}
+
+.article-img-left {
+	background: url('/getmedia/8aa46977-bd41-4967-83d7-db3bdf90f2a9/what-is-ro.aspx') no-repeat center center;
+}
+
+.article-img-right {
+	background: url('/getmedia/58463251-e9a9-4428-b1e6-80b1f65d1aab/lead-in-water.aspx') no-repeat center center;
+}
+
+@media screen and (max-width: 768px) {
+
+	.hero-background {
+	    margin-bottom: 150px;
+	}
+
+	.reverse-osmosis-container {
+	    margin-top: -100px;
+	    margin-left: -5%;
+	    margin-right: -5%;
+	}
+
+	.reverse-osmosis {
+		font-size: 25px;
+	}
+
+	.article1, .hero-background {
+	    margin-right: -1.5rem !important;
+	}
+}

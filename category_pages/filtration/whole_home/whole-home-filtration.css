@@ -1,0 +1,107 @@
+.hero-background {
+	background: url('/getmedia/c886be6a-e93b-4338-bad6-b36f8c62b448/whole-home-hero-lg.aspx') no-repeat center center;
+}
+
+.piggy-container {
+	text-align: right;
+}
+
+.piggy {
+	width: 60px;
+}
+
+.water-delivery-img {
+	background: url('/getmedia/92f323e0-0e36-473d-b513-d0447a685051/better-for-you-img.aspx') no-repeat top center;
+	padding-top: 75px;
+}
+
+.water-delivery-container {
+    background-color: white;
+    width: 50%;
+    margin: 0px auto;
+    padding: 10%;
+
+    display: none;
+}
+
+.water-delivery-price {
+    color: #0083CA;
+    font-size: 72px;
+    font-family: 'AvenirLT-Black', sans-serif;
+}
+
+.cents {
+    font-size: 45px;
+    position: relative;
+    bottom: 20px;
+}
+
+.per-month {
+    color: #0083CA;
+    font-size: 24px;
+    font-family: 'AvenirLT-Black', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cost-efficient-title {
+    font-family: 'AvenirLT-Black', sans-serif;
+    color: #0083CA;
+    font-size: 28px;
+}
+
+.cost-efficient-text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 120%;
+}
+
+.article-img-left {
+    background: url('/getmedia/17265686-8ca9-4730-a31e-824f1d95082e/water-help.aspx') no-repeat center center;
+}
+
+.article2 {
+    display: none !important;
+}
+
+.quote-icon {
+    width: 60px;
+}
+
+.first-products-grid {
+    padding-bottom: 75px !important;
+    margin-bottom: 75px !important;
+}
+
+.second-products-grid {
+    padding: 75px;
+    margin: -75px !important;
+    background-color: #d9d9d9;
+}
+
+@media screen and (max-width: 1400px) {
+	.water-delivery-container {
+		width: 60%;
+	}
+
+	.water-delivery-img {
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.water-delivery-container {
+		width: 70%;
+		padding: 8%;
+	}
+
+	.water-delivery-img {
+		padding-top: 100px;
+	}
+}
+
+@media screen and (max-width: 768px)  {
+    .piggy-container {
+        display: none !important;
+    }
+}

@@ -1,0 +1,270 @@
+.hero-background {
+    background-color: #F0EFF3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: -.75rem !important;
+}
+
+.hero-eyebrows {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #545454;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.hero-title, .form-title {
+    font-family: Avenir-Black, sans-serif;
+    font-size: 52px;
+    color: #08385B;
+    letter-spacing: 0;
+}
+
+.hero-text, .form-text {
+    font-family: Avenir-Medium, sans-serif;
+    font-size: 26px;
+    color: #545454;
+    letter-spacing: 0;
+}
+
+.drinking-water-systems-block {
+	background: url('/getmedia/55d2da68-e88f-42f8-a5fd-85236dc84f9b/drinking-water-systems.aspx') no-repeat center center;
+	height: 600px;
+	padding-top: 100px;
+	background-size: cover;
+	margin-right: -.75rem !important;
+}
+
+.whole-house-filtration-block {
+	background: url('/getmedia/ca48dad5-bf15-44e2-9534-54ca4eb4358e/whole-house-filtration.aspx') no-repeat center center;
+	height: 600px;
+	padding-top: 100px;
+	background-size: cover;
+	margin-left: -.75rem !important;
+}
+
+.block-text-container {
+	background-color: white;
+	padding: 50px !important;
+	color: black;
+}
+
+.block-text-title {
+    font-size: 26px;
+    color: #0083CA;
+    font-family: sans-serif;
+}
+
+.block-text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.learn-more-btn {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #0083CA;
+    border: 1px solid #0083ca;
+    padding: 7px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.filtration-difference-section {
+	margin-bottom: -50px;
+}
+
+.filtration-difference-img {
+    background: url(/getmedia/31abe07a-b89c-4e53-ac8a-d2030ab91f29/softener-filtration-difference.aspx) no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.filtration-difference-title {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.filtration-difference-text {
+    background-color: #08385b;
+    color: #fff;
+    padding: 50px 75px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 150px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.see-more {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.diy-solutions-block {
+	background: url('/getmedia/edf2b77e-bfe4-4686-b0b7-f7646e1dbe3c/diy-solutions.aspx') no-repeat center center;
+	height: 600px;
+	padding-top: 100px;
+	background-size: cover;
+	margin-right: -.75rem;
+}
+
+.diy-solutions-container {
+	background-color: #0083CA;
+}
+
+.diy-solutions-title,
+.diy-solutions-text,
+.diy-solutions-btn {
+	color: white;
+}
+
+.diy-sultions-text, .culligan-blog-text {
+	line-height: 130%;
+}
+
+.diy-solutions-btn {
+	border-color: white;
+}
+
+.mobile-text {
+	display: inline;
+}
+
+.mobile-container {
+    background-color: #0083CA;
+    color: white;
+    padding: 20px 5%;
+    font-size: 18px;
+    margin-right: -.75rem;
+}
+
+.culligan-blog-container {
+	background-color: #f0eff3;
+    padding-top: 0 !important;
+}
+
+.culligan-blog-block {
+	background-color: #F0EFF3;
+	height: 600px;
+	padding-top: 100px;
+	margin-left: -.75rem;
+}
+
+.culligan-blog-img-1 {
+	background: url('/getmedia/39147e2e-fd10-4350-a48d-ea2cdb9ef697/culligan-blog-1.aspx') no-repeat center center;
+	height: 200px;
+	width: 200px;
+	/* background-size: cover; */
+}
+
+.culligan-blog-img-2 {
+	background: url('/getmedia/46adfea2-8713-4e52-b85d-ecc29e7fdfa8/culligan-blog-2.aspx') no-repeat center center;
+	height: 200px;
+	width: 200px;
+	/* background-size: cover; */
+}
+
+.form-section {
+    margin-top: 100px !important;
+}
+
+.form-title {
+	color: #0083ca;
+}
+
+.free {
+	color: #B0D235;
+	font-weight: bold;
+}
+
+.quote-img {
+	text-align: center;
+}
+
+.quote-icon {
+	width: 60px;
+}
+
+.quote-text, .quote-attribution {
+	font-family: Avenir Medium, sans-serif;
+	font-size: 26px;
+	margin: 20px 0;
+	color: #545454;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.quote-attribution {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.hero-eyebrow {
+	    letter-spacing: 5px;
+	}
+
+	.hero-title {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
+
+	.hero-text, 
+	.form-text, 
+	.quote-text, 
+	.quote-attribution {
+	    font-size: 16px;
+	}
+
+	.block-text, 
+	.learn-more-btn {
+		font-size: 18px;
+    	line-height: 28px;
+	}
+
+	.filtration-difference-text {
+	    background-color: white;
+	    color: black;
+	    width: 90% !important;
+	    padding: 25px;
+	}
+
+	.drinking-water-systems-block,
+	.whole-house-filtration-block {
+		height: 200px !important;
+	}
+
+	.diy-solutions-block,
+	.culligan-blog-block {
+		background: none;
+		height: 60px;
+		padding-top: 0;
+	}
+
+	.diy-solutions-container,
+	.culligan-blog-container {
+		padding: 20px !important;
+	}
+
+	.diy-solutions-title,
+	.culligan-blog-title {
+		margin-bottom: 0 !important;
+	}
+
+	.filtration-difference-section {
+	    margin-bottom: -150px;
+	}
+
+	.filtration-difference-img {
+	    margin-top: .75rem;
+	}
+
+	.form-section {
+		margin-top: 25px !important;
+	}
+
+}

@@ -1,0 +1,167 @@
+
+<div class="cms-shared-destination" data-cms-shared="subnav"></div>
+<div class="clearfix">
+  <div style="">
+    <cms:CMSWebPartZone ZoneID="ZoneA" runat="server" />
+  </div>
+</div>
+<section class="container">
+  <div class="row" style="padding-top:10%;">
+    <div  class="col-md-4 col-md-push-1 hidden-sm hidden-xs" style="z-index:1; background:white; margin-top:5%; padding-bottom:3%;" >
+      <!–– This column is the text on the left with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneB" runat="server" />
+    </div>
+    <div class="col-md-8 col-md-pull-1 hidden-sm hidden-xs">
+      <!–– This column is the image on the right with a little hidden ––>
+      <cms:CMSWebPartZone ID="zoneC" runat="server" />
+    </div>
+  </div>
+  <div class="row" style="padding-top:10%;">
+    <div  class="col-sm-6 visible-sm visible-xs">
+      <!–– This column is the text on the left with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneTitleTablet" runat="server" />
+    </div>
+    <div class="col-sm-12 visible-sm visible-xs">
+      <!–– This column is the image on the right with a little hidden ––>
+      <cms:CMSWebPartZone ID="zoneImageTablet" runat="server" />
+    </div>
+    <div  class="col-sm-12 visible-sm visible-xs" >
+      <!–– This column is the text on the left with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneCopyTablet" runat="server" />
+    </div>
+  </div>
+  <div class="row" style="padding-top:10%;">
+    <div class="col-sm-6 col-sm-push-1 hidden-sm hidden-xs ">
+      <!–– This column is the image on the left with a little hidden ––>
+      <cms:CMSWebPartZone ID="zoneD" runat="server" />
+    </div>
+    <div class="col-sm-6 col-lg-pull-1 col-sm-pull-0 hidden-sm hidden-xs" style="z-index:1; margin-top:2%;" >
+      <!–– This column is the text on the right with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneE" runat="server" />
+    </div>
+  </div>
+  <div class="row" style="padding-top:10%;">
+    <div  class="col-sm-6 visible-sm visible-xs">
+      <!–– This column is the text on the left with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneTitleTablet2" runat="server" />
+    </div>
+    <div class="col-sm-12 visible-sm visible-xs">
+      <!–– This column is the image on the right with a little hidden ––>
+      <cms:CMSWebPartZone ID="zoneImageTablet2" runat="server" />
+    </div>
+    <div  class="col-sm-12 visible-sm visible-xs" >
+      <!–– This column is the text on the left with a little overlay ––>
+      <cms:CMSWebPartZone ID="zoneCopyTablet2" runat="server" />
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row full-width-image-coffee ">
+    <div class="col-md-8  ">
+      <!–– need space here so using this col ––>
+    </div>
+    <div class="col-md-4 " style="z-index:1; margin-top:2%; text-align:left;" >
+      <!–– This column is the text over the coffee image ––>
+      <cms:CMSWebPartZone ID="zoneTextOverlay" runat="server" />
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <!–– Form Section ––>
+  <div class="row" style="padding-top:10%;">
+    <div class="col-md-3">
+      <!–– Form left rail text ––>
+      <cms:CMSWebPartZone ID="zoneFormText" runat="server" />
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <!–– Wave and text above form ––>
+        <cms:CMSWebPartZone ID="zoneFormBreaker" runat="server" />
+      </div>
+      <div class="row">
+        <!–– Actual form ––>
+        <cms:CMSWebPartZone ID="zoneForm" runat="server" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <!–– Services like Delivery etc. ––>
+  <div class="row" style="padding-top:10%;">
+    <div class="col-md-6">
+      <div class="row" style="width: 100%; height: auto;">
+        <div class="col-md-6 blue" style="left:15px;">
+          <!–– One blue square ––>
+          <cms:CMSWebPartZone ID="zoneServices1" runat="server" />
+        </div>
+        <div class="col-md-6" style="right:-15px; padding-left:0px;">
+          <!–– One scotch square ––>
+          <cms:CMSWebPartZone ID="zoneServices2" runat="server" />
+        </div>
+      </div>
+      <div class="row" style="margin-top:15px; margin-bottom:15px;">
+        <div class="col-md-6" >
+          <!–– One ice square  ––>
+          <cms:CMSWebPartZone ID="zoneServices3" runat="server" />
+        </div>
+        <div class="col-md-6 green" >
+          <!–– One green square  ––>
+          <cms:CMSWebPartZone ID="zoneServices4" runat="server" />
+        </div>
+      </div> <!–– row  ––>
+    </div> <!–– col-md-12  ––>
+    <div class="col-md-6">
+      <div class="col-md-6" >
+        <!–– Two squares vertical ––>
+        <cms:CMSWebPartZone ID="zoneServices5" runat="server" />
+      </div>
+      <div class="col-md-6">
+        <div class="row hidden-sm-xs">
+          <!–– One square ––>
+          <cms:CMSWebPartZone ID="zoneServices6" runat="server" />
+        </div>
+        <div class="row" style="margin-top:15px;">
+          <div class="col-md-6 dark-blue">
+            <!–– One square ––>
+            <cms:CMSWebPartZone ID="zoneServices7" runat="server" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <!–– Services like Delivery etc. ––>
+  <div class="row" style="padding-top:10%;">
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea1" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea2" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea3" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea4" runat="server" />
+    </div>
+  </div>
+  <div class="row" style="padding-top:10%;">
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea5" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea6" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea7" runat="server" />
+    </div>
+    <div class="col-sm-3">
+      <cms:CMSWebPartZone ID="zoneServicesArea8" runat="server" />
+    </div>
+  </div>
+</section>

@@ -1,0 +1,162 @@
+.hero-background {
+	background: url('/getmedia/a49c314a-4409-458a-ad1c-eb5c4267851c/softener-hero-lg.aspx') no-repeat center center;
+}
+
+.softer-life-container {
+	position: relative;
+}
+
+.softer-life {
+	background-color: #0083CA;
+	color: #fff;
+	font-size: 32px;
+	padding: 24px;
+	margin: -.75rem;
+}
+
+.softer-life-img {
+	background: url('/getmedia/6ac6cfdf-d459-4f5f-be05-b120986b8bf1/softer-life.aspx') no-repeat center right;
+	/* background-size: cover;
+	height: 400px;
+	width: calc(100% - .75rem); */
+}
+
+/* .softer-benefits-img {
+	background-size: cover;
+	height: 90px;
+	margin: -.75rem;
+	margin-bottom: 10px;
+}
+
+.softer-benefits-text {
+    margin-top: -.75rem;
+}
+
+.softer-benefits-text-title {
+    letter-spacing: 3px;
+}
+
+.softer-benefits-text-text {
+    line-height: 150%;
+} */
+
+.cleaner-img {
+	background: url('/getmedia/18656cfe-1cf3-4319-a9d6-c9c135e08f6c/softer-benefits-cleaner.aspx') no-repeat center center;
+}
+
+.softer-img {
+	background: url('/getmedia/f88a5217-d133-4186-9d70-1aca16dae221/softer-benefits-softer.aspx') no-repeat center center;	
+}
+
+.economical-img {
+	background: url('/getmedia/ff47193b-68a9-48f8-9d91-39a5e600c5bf/softer-benefits-economical.aspx') no-repeat center center;	
+}
+
+.you-can-get {
+	margin-bottom: 0;
+	margin-top: 24px;
+	font-family: Avenir-Black, sans-serif;
+    font-size: 36px;
+    color: #005795;
+}
+
+.big-num {
+	font-family: Avenir-Black, sans-serif;
+    font-size: 120px;
+    color: #C6C6C6;
+}
+.percent {
+    text-decoration: underline;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+
+    font-family: Avenir-Black, sans-serif;
+    font-size: 60px;
+    color: #C6C6C6;
+}
+
+.num-text {
+    margin-bottom: 10px;
+    line-height: 18px;
+	font-family: 'AvenirLT-Book',sans-serif;
+	font-weight: bold;
+}
+
+.num-fine-print {
+	color: #D8D8D8;
+	font-family: Roboto;
+    font-size: 12px;
+}
+
+.article-img-left {
+	background: url('/getmedia/a902f4bc-7468-43fc-bcda-75e54dcfc6ca/soft-water-benefits.aspx') no-repeat center center;
+}
+
+.article-img-right {
+	background: url('/getmedia/5c792cd6-b6c3-4b45-a5ea-cd9c20cfe6ad/hard-water-effects.aspx') no-repeat center center;
+}
+
+@media screen and (max-width: 768px) {
+
+	.you-can-get,
+	.big-num,
+	.num-text,
+	.num-fine-print {
+		text-align: center;
+	}
+
+	.you-can-get {
+	    font-size: 25px;
+	}
+
+	.big-num {
+		font-size: 100px;
+	}
+
+	.percent {
+	    font-size: 48px;
+	}
+
+	.num-fine-print {
+	    font-size: 10px;
+	}
+	
+	.softer-life {
+		margin-left: -5%;
+		margin-top: 50px !important;
+	}
+	./* softer-life-img {
+		background: none;
+		height: 0;
+	} */
+	.softer-life-container {
+		right: 0;
+	}
+
+	/* .softer-benefits-text {
+    	padding: 0 .75rem .75rem .75rem !important;
+	}
+	.softer-benefits-text.first {
+		margin-top: 50px;
+	}
+
+
+	.softer-benefits-img {
+		display: none;
+	} */
+
+	.infographic-side-graphics {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.softer-life {
+		font-size: 28px;
+	}
+
+	.tap-into-block {
+	    padding: 20px 25px !important;
+	}
+}

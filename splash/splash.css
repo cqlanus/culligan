@@ -1,0 +1,252 @@
+.header-top-left {
+  text-align: right;
+}
+.header-top-left div {
+  display: inline-block;
+  padding: 9px 0 0 35px;
+  color: #005a9b;
+  font-family: 'AvenirLT-Medium';
+  font-size: 16px;
+  margin-top: 6px;
+}
+.header-top-left .country-selector {
+  position: relative;
+  padding-bottom: 15px;
+}
+.country-selector ul {
+  display:none;
+  position:absolute;
+  top: 39px;
+  left: 24px;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 180px;
+  background: white;
+  text-align: left;
+  padding-bottom: 4px;
+  z-index: 2;
+}
+.country-selector li {
+  border-top: 1px solid #d6d5d9;
+  padding: 0;
+  list-style-type: none;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 8px;
+}
+.country-selector:hover ul, .country-selector ul:hover {
+  display:block;
+}
+.header-top {
+  background: rgba(255,255,255, .8);
+  margin-bottom: -46px;
+  position: relative;
+  z-index: 10;
+}
+.header-top-left img {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 8px;
+}
+.header-top-left a, .header-top-left .country-selector span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #005a9b;
+}
+.header-top-left a i {
+  vertical-align: text-top;
+  margin-top: -2px;
+}
+.country-select {
+  margin-left: 10px;
+}
+
+.banner-section {
+	padding-bottom: 50px;
+}
+
+.banner-section .columns {
+	clear: both;
+}
+
+.banner-section-logo {
+    text-align: center;
+}
+
+.home-section {
+	background: url('/getmedia/13138340-ea11-4504-81f9-efe1715f1c70/home-section.aspx') no-repeat center right;
+	height: 600px;
+	background-size: cover;
+}
+
+.office-section {
+	background: url('/getmedia/3858e958-6047-471a-9ede-23f401cb0676/office-section.aspx') no-repeat center right;
+	height: 600px;
+	background-size: cover;
+}
+.business-section {
+	background: url('/getmedia/97885bdf-71e8-4c71-98b4-481edfe77388/business-section.aspx') no-repeat center right;
+	height: 600px;
+	background-size: cover;
+}
+.industrial-section {
+	background: url('/getmedia/a9f69023-6e07-48c8-90e7-77db5f6790cf/industrial-section.aspx') no-repeat center right;
+	height: 600px;
+	background-size: cover;
+}
+
+.culligan-section {
+	padding-top: 200px;
+	margin-right: -1.5rem;
+}
+
+.industrial-section {
+	margin-right: inherit;
+}
+
+.culligan-section-container {
+	background-color: white;
+	padding: 50px 25px;
+	width: 60%;
+	margin-left: 5%;
+}
+
+.culligan-section-icon img {
+	width: 40px;
+	padding-bottom: 15px;
+}
+
+.culligan-section-title {
+    font-size: 36px;
+    font-family: Avenir-Black;
+    color: #0083ca;
+    letter-spacing: 0;
+    padding-bottom: 10px;
+}
+
+.culligan-section-text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #545454;
+    line-height: 130%;
+}
+
+._footer {
+    background: #f0eff3;
+    padding: 30px 0 25px 0;
+}
+
+.h1-footer-orig {
+	margin-left: inherit;
+	margin-bottom: 0;
+	padding: inherit;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-family: Avenir-Black;
+}
+
+.footer-list-item {
+	font-size: 16px;
+    padding: 5px 0;
+    font-family: Roboto;
+}
+
+.footer-list-item a {
+	color: #0083ca;
+}
+
+.subFooter {
+	background-color: #f0eff3;
+}
+
+.bigWrapper {
+	border-top: 2px solid #bbb;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+}
+
+.mobile-nav {
+    background-color: #0083ca;
+    color: white;
+    padding: 15px 5%;
+}
+
+.mobile-nav a {
+	display: flex;
+}
+
+.mobile-nav-icon {
+}
+
+.mobile-nav-icon img {
+	width: 30px;
+}
+
+.mobile-nav-text {
+	margin-bottom: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+.arrow {
+	font-size: 24px;
+}
+
+@media screen and (max-width:1400px) {
+
+	.culligan-section-container {
+		width: 75%;
+	}
+	.culligan-section-title {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.home-section,
+	.office-section,
+	.business-section,
+	.industrial-section {
+		background-position: top right;
+	}
+
+	.culligan-section-container {
+		width: inherit;
+		margin-left: inherit;
+		margin-right: 5%;
+		padding: 50px 15px
+	}
+
+	.culligan-section-title {
+		font-size: 24px;
+	}
+	.culligan-section-text {
+		font-size: 14px;
+	}
+
+	.footer-section {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home-section,
+	.office-section,
+	.business-section,
+	.industrial-section {
+		height: 300px;
+	}
+
+	.banner-section-logo {
+	    padding-top: 46px;
+	}
+
+	.culligan-section {
+		padding-top: 250px;
+	}
+}

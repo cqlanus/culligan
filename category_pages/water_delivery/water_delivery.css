@@ -1,0 +1,152 @@
+.hero-background {
+	background: url('/getmedia/263e9797-c773-4d5e-8c9d-d4a1768799af/water-delivery-hero-lg.aspx') no-repeat center center;
+}
+
+.piggy-container {
+	text-align: right;
+}
+
+.piggy {
+	width: 60px;
+}
+
+.water-delivery-img {
+	background: url('/getmedia/f75c065a-7b5d-487f-a8d1-d443847d2eb9/delivery-pricing.aspx') no-repeat center center;
+	padding-top: 75px;
+}
+
+.water-delivery-container {
+    background-color: white;
+    width: 50%;
+    margin: 0px auto;
+    padding: 10%;
+    text-align: center;
+}
+
+.water-delivery-price {
+    color: #0083CA;
+    font-size: 72px;
+    font-family: 'AvenirLT-Black', sans-serif;
+}
+
+.cents {
+    font-size: 45px;
+    position: relative;
+    bottom: 20px;
+}
+
+.per-month {
+    color: #0083CA;
+    font-size: 24px;
+    font-family: 'AvenirLT-Black', sans-serif;
+    letter-spacing: 1px;
+}
+
+.cost-efficient-title {
+    font-family: 'AvenirLT-Black', sans-serif;
+    color: #0083CA;
+    font-size: 28px;
+}
+
+.cost-efficient-text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.article-img-right {
+	background: url('/getmedia/ba06b112-10e5-4434-ac2c-084fcb9e7874/bottled-water.aspx') no-repeat center center;
+}
+
+.services-section,
+.article1 {
+	display: none !important;
+}
+
+.quote-icon {
+	width: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+	.water-delivery-container {
+		width: 60%;
+	}
+
+	.water-delivery-img {
+		padding-top: 90px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.water-delivery-container {
+		width: 70%;
+		padding: 5%;
+	}
+
+	.water-delivery-img {
+		padding-top: 165px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.piggy-container {
+		display: none !important;
+	}
+	.water-delivery-img {
+		background: url('/getmedia/f75c065a-7b5d-487f-a8d1-d443847d2eb9/delivery-pricing.aspx') no-repeat center center !important;
+		background-size: cover !important;
+        margin-left: -2.25rem;
+    	margin-right: -2.25rem;
+    	width: inherit !important;
+	}
+
+	.left-hand-img {
+		height: 300px !important;
+	}
+
+	.infographic-section {
+		margin-top: 75px !important;
+	}
+
+	.infographic-side-graphics {
+		margin-top: 50px;
+	}
+
+	.article2 {
+		display: inherit !important;
+		margin-right: -2.25rem !important;
+	}
+
+	.article-img-right {
+	    right: 0 !important;
+	    bottom: 150px;
+	    height: 330px !important;
+	}
+
+	.article-block-left {
+		left: 0 !important;
+	    width: 80%;
+	    margin-left: 10%;
+	    top: 280px !important;
+	}
+
+	.products-grid {
+		margin-right: -1.5rem !important;
+	}
+
+	.form-section {
+		margin-top: 0 !important;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.infographic-section {
+		margin-top: 225px!important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.infographic-section {
+	    margin-top: 250px !important;
+	}
+}
