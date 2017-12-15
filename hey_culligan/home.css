@@ -1,9 +1,11 @@
 .picture-hero {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     position: relative;
-    margin: 0 auto;
-    background: url('/getmedia/e236a11d-6916-4403-ab8a-1eb45c3b43e2/home-hero-lg.aspx') no-repeat center center;
+    /* margin: 0 auto; */
+    background: url('/getmedia/e236a11d-6916-4403-ab8a-1eb45c3b43e2/home-hero-lg.aspx') no-repeat top center;
     padding: 0 0 41.666666666667% 0;
+    background-size: cover;
+    height: 600px;
 }
 
 @media only screen and (min-width: 1455px) {
@@ -16,7 +18,7 @@
 .picture-hero .hero-image-mobile {
     display: none;
 }
-
+/* 
 .picture-hero .hero-image {
     margin: auto;
     position: absolute;
@@ -37,11 +39,43 @@
     left: 0;
     margin: 0;
 }
+ */
+
+.hero-block {
+    width: 50%;
+    padding-left: 12%;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 1366px) {
+    .hero-block {
+        padding-left: 7%;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .picture-hero {
+        height: 500px;
+    }
+    .hero-block {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .picture-hero {
+        height: 400px;
+    }
+
+    .aside-form {
+        display: none;
+    }
+}  
 
 .picture-hero h1 {
-    position: absolute;
+    /* position: absolute;
     top: 78px;
-    left: 137px;
+    left: 225px; */
     margin: 0;
     color: #08385B;
     font-size: 61px;
@@ -58,19 +92,17 @@
 }
 
 .picture-hero .hero-sub-headline {
-    position: absolute;
-    top: 230px;
-    left: 137px;
+    font-family: Avenir-Medium, sans-serif;
     font-size: 26px;
-    line-height: 36px;
-    max-width: 440px;
     color: #545454;
+    width: 70%;
+    line-height: 130%;
 }
 
 .picture-hero .cta-arrow {
     position: absolute;
     bottom: -24px;
-    left: 137px;
+    left: 225px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -79,16 +111,14 @@
 }
 
 .picture-hero .btn-thin {
-    position: absolute;
-    top: 394px;
-    left: 137px;
     font-size: 18px;
     line-height: 38px;
-    color: #0083CA;
-    border: 1px solid #0083CA;
+    color: #0083ca;
+    border: 1px solid #0083ca;
     border-radius: 22px;
     display: block;
-    padding: 0 75px;
+    width: 50%;
+    text-align: center;
 }
 
 .picture-hero .btn-thin:hover {
@@ -96,7 +126,11 @@
 }
 
 .aside-form {
-    margin-top: -60px;
+    margin-top: -50px;
+}
+
+.email-field {
+    margin-top: 0 !important;
 }
 
 .sticky-form-content {}
@@ -122,21 +156,21 @@
 .aside-form header h2:after {
     content: '';
     position: absolute;
-    right: -40px;
+    right: -28px;
     top: 0;
     bottom: 0;
     margin: auto;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 9px 9px 0 9px;
+    border-width: 8px 8px 0 8px;
     border-color: #ffffff transparent transparent transparent;
     opacity: 0;
     transition: opacity 0.25s linear;
 }
 
 .aside-form .sticky-form.stuck header {
-    text-align: left;
+    /* text-align: left; */
 }
 
 .aside-form .sticky-form.stuck header h2:after {
@@ -272,9 +306,10 @@
 
 .gif-feature {
     max-width: 1440px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto;
     position: relative;
     padding: 0;
+    padding-top: 100px;
 }
 
 .gif-feature .gif-feature-image {
@@ -630,12 +665,17 @@
     }
     .picture-hero .btn-thin {
         margin-top: 16px;
-        max-width: 245px;
+        /* max-width: 245px; */
     }
 
     .hero-block {
-        top: 240px;
+        top: 350px;
         position: relative;
+        width: 95%;
+        padding-left: 5%;
+    }
+    .btn-thin {
+        width: 100%;
     }
     .aside-form {
         margin-top: 0;
@@ -679,6 +719,14 @@
     .quote-grid blockquote footer {
         font-size: 16px;
         line-height: 19px;
+    }
+    .home-form-main {
+        margin-top: 120px;
+    }
+
+    .article-feature {
+        text-align: center;
+        width: 80%;
     }
 }
 
@@ -729,8 +777,25 @@
         width: 100% !important;
         padding: 0;
     }
+
+    .home-form-main {
+        margin-top: 180px;
+    }
     .quote-grid-item {
         flex-basis: 100%;
+    }
+
+    .article-feature {
+        text-align: left;
+    }
+
+    .article-feature img {
+        display: none;
+    }
+
+    .article-section-text {
+        padding: 10px 0;
+        border-bottom: 2px solid #bbb;
     }
 }
 

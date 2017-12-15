@@ -518,7 +518,7 @@
     }
 
     .contact-us-form {
-        top: 515px;
+        display: none;
     }
 }
 

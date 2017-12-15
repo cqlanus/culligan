@@ -595,8 +595,7 @@
     }
 
     .contact-us-form {
-      top: 517px;
-      width: 250px;
+      display: none;
     }
 
 
@@ -612,7 +611,7 @@
       height:  300px;
     }
     .hero-block {
-      top: inherit !important;
+      top: inherit;
       padding-left: 5%;
       width: 40%;
     }
@@ -644,7 +643,11 @@
       width: 40%;
       left: 150px;
     }
-    .small-filtration-row, .small-softness-row {
+    .small-filtration-row {
+      padding-top: 150px;
+    }
+
+    .small-softness-row {
       padding-top: 0;
     }
 
@@ -666,7 +669,7 @@
     .hero-block {
       padding-left: 5%;
       width: 100%;
-      padding-top: 375px;
+      padding-top: 375px ;
     }
 
     .hero-title {

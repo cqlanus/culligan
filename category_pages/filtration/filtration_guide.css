@@ -1,8 +1,16 @@
+/* global style correction */
+
+@media screen and (max-width: 1200px) {
+    .main-nav li a {
+        height: 62px !important;
+    }
+}
 .hero-background {
     background-color: #F0EFF3;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: -.75rem !important;
+    margin-top: 0 !important;
 }
 
 .hero-eyebrows {
@@ -201,6 +209,115 @@
 
 .quote-attribution {
 	font-size: 18px;
+}
+
+
+/* contact us form */
+
+.contact-us-form-section {
+	margin-top: -2.25rem !important;
+}
+
+.contact-us-form {
+    position: absolute;
+    top: 1117px;
+    width: 300px;
+    z-index: 1;
+}
+
+.contact-us-form.stuck {
+    position: fixed;
+    top: 0;
+}
+
+.contact-us-form-header {
+    background-color: #545454;
+    color: white;
+    font-size: 22px;
+    font-family: Avenir-Medium, sans-serif;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-us-form-header h2:after {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: #ffffff transparent transparent transparent;
+    /* opacity: 0; */
+    transition: opacity 0.25s linear;
+}
+
+.hey-culligan {
+    margin-bottom: 0;
+}
+
+.contact-us-form-content {
+    display: none;
+    background-color: white;
+    border: 1px solid #545454;
+    padding: 10px;
+}
+
+.contact-us-form-text {
+	padding-top: 15px;
+}
+
+.contact-us-form-content.active {
+    display: inherit;
+}
+
+.contact-us-form-content input {
+    margin: 15px 0 !important;
+}
+
+.contact-us-form-content input.btn {
+    line-height: 48px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: -15px !important;
+    background-color: #005795;
+}
+
+.contact-us-form-content label {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 17px 0 0 0;
+    border: 2px solid #0083ca;
+    width: 45%;
+    text-align: center;
+    color: #0083ca;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.contact-us-form-content label.active-label {
+    color: #ffffff;
+    background: #0083CA;
+}
+
+.contact-field {
+	/* display: none; */
+}
+
+.active-tabber {
+	display: inline-block !important;
+}
+
+@media screen and (max-width: 992px) {
+	.contact-us-form {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 768px) {

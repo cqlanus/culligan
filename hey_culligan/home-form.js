@@ -1,6 +1,7 @@
   $(document).ready(function(){
-    $('.aside-form .form-wrapper label').first().text('Email Me');
+    $('.aside-form .form-wrapper label').first().text('Email Me').addClass('active-label');
     $('.aside-form .form-wrapper label').last().text('Call Me');
+    $('.phone-field').hide()
       $('.aside-form .form-wrapper label').on('click', function(){
         if(!$(this).hasClass('active-label')){
           $('.active-tabber').removeClass('active-tabber');
@@ -24,16 +25,11 @@
           });
           inview = new Waypoint.Inview({
               element: inviewElement,
-              entered: function(direction) {
-                  if (isDesktop) {
-                    direction === 'up' && $('.sticky-form.stuck .form-wrapper').css('opacity', '1');
-                  } else {
-                    direction === 'down' && $('.sticky-form.stuck .form-wrapper').css('opacity', '0');
-                  }
-              },
-              exit: function(direction) {
-                  !isDesktop && direction === 'up' && $('.sticky-form.stuck .form-wrapper').css('opacity', '1');                  
+              exited: function(direction) {
                   isDesktop && direction === 'down' && $('.sticky-form.stuck .form-wrapper').css('opacity', '0');
+              },
+              enter: function(direction) {
+                isDesktop && direction === 'up' &&  $('.sticky-form.stuck .form-wrapper').css('opacity', '1')
               }
           })
         }
