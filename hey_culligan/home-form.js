@@ -1,4 +1,6 @@
   $(document).ready(function(){
+    $('.aside-form .form-wrapper label').first().text('Email Me');
+    $('.aside-form .form-wrapper label').last().text('Call Me');
       $('.aside-form .form-wrapper label').on('click', function(){
         if(!$(this).hasClass('active-label')){
           $('.active-tabber').removeClass('active-tabber');
