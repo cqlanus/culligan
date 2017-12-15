@@ -1,8 +1,17 @@
+/* global style correction */
+
+@media screen and (max-width: 1200px) {
+    .main-nav li a {
+        height: 62px !important;
+    }
+}
+
+
   p {
     font-family: 'AvenirLT-Book', sans-serif !important;
   }
   h2 {
-    font-family: 'AvenirLT-Black', sans-serif !important;
+    /* font-family: 'AvenirLT-Black', sans-serif !important; */
     color: #005795;
   }
   .full-width-image-coffee {
@@ -56,6 +65,7 @@
   .hero-title {
     font-size: 61px;
     color: #08385b;
+    font-family: 'AvenirLT-Black', sans-serif !important;
   }
 
   .hero-text {
@@ -370,6 +380,106 @@
     font-size: 24px;
   }
 
+
+/* contact us form */
+
+.contact-us-form {
+    position: absolute;
+    top: 817px;
+    width: 300px;
+    z-index: 2;
+}
+
+.contact-us-form.stuck {
+    position: fixed;
+    top: 0;
+}
+
+.contact-us-form-header {
+    background-color: #545454;
+    color: white;
+    font-size: 22px;
+    font-family: Avenir-Medium, sans-serif;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-us-form-header h2:after {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: #ffffff transparent transparent transparent;
+    /* opacity: 0; */
+    transition: opacity 0.25s linear;
+}
+
+.hey-culligan {
+    margin-bottom: 0;
+}
+
+.contact-us-form-content {
+    display: none;
+    background-color: white;
+    border: 1px solid #545454;
+    padding: 10px;
+}
+
+.contact-us-form-text {
+  padding-top: 15px;
+}
+
+.contact-us-form-content.active {
+    display: inherit;
+}
+
+.contact-us-form-content input {
+    margin: 15px 0 !important;
+}
+
+.contact-us-form-content input.btn {
+    line-height: 48px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: -15px !important;
+    background-color: #005795;
+}
+
+.contact-us-form-content label {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 17px 0 0 0;
+    border: 2px solid #0083ca;
+    width: 45%;
+    text-align: center;
+    color: #0083ca;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.contact-us-form-content label.active-label {
+    color: #ffffff;
+    background: #0083CA;
+}
+
+.contact-field {
+  /* display: none; */
+}
+
+.active-tabber {
+  display: inline-block !important;
+}
+
+
   @media screen and (max-width: 1700px) {
     .full-width-image-coffee,
     .hero-image {
@@ -403,6 +513,10 @@
 
     .cta-arrow {
       top: 810px;
+    }
+
+    .contact-us-form {
+      top: 717px;
     }
   }
   @media screen and (max-width: 1024px) {
@@ -480,6 +594,11 @@
       padding-top: 0;
     }
 
+    .contact-us-form {
+      top: 517px;
+      width: 250px;
+    }
+
 
   }
 
@@ -493,6 +612,7 @@
       height:  300px;
     }
     .hero-block {
+      top: inherit !important;
       padding-left: 5%;
       width: 40%;
     }
@@ -508,9 +628,9 @@
     }
 
     .cta-arrow {
-      top: 470px;
-    }
-
+      top: 459px;
+      z-index: 3;
+  }
     .tastier-block {
       margin-top: 320px;
     }
@@ -531,6 +651,12 @@
     .icon-quote-softener-sm {
       left: 10%;
     }
+
+
+    .contact-us-form {
+      width: 100%;
+      top: inherit;
+    }
   }
 
   @media screen and (max-width: 570px) {
@@ -540,7 +666,7 @@
     .hero-block {
       padding-left: 5%;
       width: 100%;
-      margin-top: 320px;
+      padding-top: 375px;
     }
 
     .hero-title {
