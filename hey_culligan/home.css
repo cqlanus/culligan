@@ -1,3 +1,12 @@
+/* global style correction */
+
+@media screen and (max-width: 1200px) {
+    .main-nav li a {
+        height: 62px !important;
+    }
+}
+
+
 .picture-hero {
     /* max-width: 1440px; */
     position: relative;
@@ -73,13 +82,10 @@
 }  
 
 .picture-hero h1 {
-    /* position: absolute;
-    top: 78px;
-    left: 225px; */
     margin: 0;
     color: #08385B;
-    font-size: 61px;
-    line-height: 72px;
+    font-size: 52px;
+    line-height: 130%;
     max-width: 550px;
     font-family: 'AvenirLT-Black';
     text-transform: uppercase;
@@ -154,19 +160,13 @@
 }
 
 .aside-form header h2:after {
+    border-width: 12px 8px 0 8px;
+    position: relative;
+    border-color: #545454 transparent;
     content: '';
-    position: absolute;
-    right: -28px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 8px 8px 0 8px;
-    border-color: #ffffff transparent transparent transparent;
-    opacity: 0;
-    transition: opacity 0.25s linear;
+    top: 19px;
+    left: 10px;
 }
 
 .aside-form .sticky-form.stuck header {
@@ -182,8 +182,9 @@
     border: 1px solid #545454;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.07);
     padding: 10px;
-    opacity: 1;
-    transition: opacity 0.25s linear;
+    /* opacity: 1; */
+    display: inherit;
+    transition: display 0.25s linear;
 }
 
 .form-text {
@@ -270,7 +271,8 @@
 }
 
 .sticky-form.stuck.active .form-wrapper {
-    opacity: 1 !important;
+    /* opacity: 1 !important; */
+    display: inherit !important;
 }
 
 .sticky-form.stuck header {
@@ -292,7 +294,7 @@
     left: 58px;
     font-size: 36px;
     line-height: 49px;
-    color: #08385B;
+    color: #0083CA;
     font-weight: 700;
     font-family: 'AvenirLT-Black';
     max-width: 380px;
@@ -397,6 +399,7 @@
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 5px;
+    font-family: Roboto;
 }
 
 .detail-list-feature a.feature-list-item-headline:hover {
@@ -406,6 +409,8 @@
 .detail-list-feature p {
     font-size: 18px;
     line-height: 28px;
+    font-family: Roboto;
+    color: #545454;
 }
 
 .detail-list-feature .squigle {
@@ -424,6 +429,7 @@
 .quote-grid-item {
     background: #F0EFF3;
     flex-basis: 25%;
+    font-family: Avenir-Medium, sans-serif;
 }
 
 .quote-grid-image img {
@@ -451,6 +457,7 @@
     font-style: normal;
     text-transform: uppercase;
     margin: 0;
+    font-family: Roboto;
 }
 
 .quote-grid blockquote footer:before {

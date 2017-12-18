@@ -16,22 +16,25 @@
       var sticky;
       var inview;
       function createSticky(){
-        var isDesktop = $(window).width() > 768;
-        var inviewElement = isDesktop ? $('.gif-feature')[0] : $('.form-clear-el')[0]
+        // var isDesktop = $(window).width() > 768;
+        var inviewElement = /*isDesktop ?*/ $('.gif-feature')[0] /*: $('.form-clear-el')[0]*/
 
         if($(window).height() > ($('.sticky-form').height())){
           sticky = new Waypoint.Sticky({
             element: $('.sticky-form')[0]
           });
-          inview = new Waypoint.Inview({
+          setTimeout(function() {
+            inview = new Waypoint.Inview({
               element: inviewElement,
-              exited: function(direction) {
-                  isDesktop && direction === 'down' && $('.sticky-form.stuck .form-wrapper').css('opacity', '0');
-              },
               enter: function(direction) {
-                isDesktop && direction === 'up' &&  $('.sticky-form.stuck .form-wrapper').css('opacity', '1')
-              }
-          })
+                /*isDesktop && */direction === 'up' &&  $('.sticky-form.stuck .form-wrapper').css('display', 'inherit')
+              },
+              exited: function(direction) {
+                console.log(inviewElement);
+                  /*isDesktop && */direction === 'down' && $('.sticky-form.stuck .form-wrapper').css('display', 'none');
+              },
+            })
+          }, 1000);
         }
         resizeSticky();
       }

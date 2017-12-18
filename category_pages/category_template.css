@@ -244,8 +244,8 @@
     color: #0083CA;
 }
 
-.products-grid-item-title {
-    color: #0083CA;
+.products-grid-item-title a {
+    color: #0083CA !important;
     font-family: Roboto;
     font-size: 18px;
     font-weight: bold;
@@ -336,6 +336,10 @@
 .main-text {
     font-family: Roboto, sans-serif;
     font-size: 16px;
+}
+
+.see-more a {
+    color: #0083ca !important;
 }
 
 
