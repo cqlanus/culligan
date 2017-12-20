@@ -1,6 +1,6 @@
   $(document).ready(function(){
     $('.aside-form .form-wrapper label').first().text('Email Me').addClass('active-label');
-    $('.aside-form .form-wrapper label').last().text('Call Me');
+    $('.aside-form .form-wrapper label').first().next().text('Call Me');
     $('.phone-field').hide()
       $('.aside-form .form-wrapper label').on('click', function(){
         if(!$(this).hasClass('active-label')){
@@ -13,6 +13,17 @@
       $('#form-toggle').on('click', function(){
         $('.sticky-form.stuck').toggleClass('active');
       });
+
+      $('.email-field-label').click(function() {
+        $('.phone-field').hide();
+        $('.email-field').show();
+      });
+
+      $('.phone-field-label').click(function() {
+        $('.email-field').hide();
+        $('.phone-field').show();
+      });
+
       var sticky;
       var inview;
       function createSticky(){

@@ -7,11 +7,12 @@
 }
 
 .softer-life {
-	background-color: #0083CA;
-	color: #fff;
-	font-size: 32px;
-	padding: 24px;
-	margin: -.75rem;
+    background-color: #0083ca;
+    color: #fff;
+    font-size: 36px;
+    padding: 30px;
+    margin: -.75rem;
+    font-family: Avenir-Black;
 }
 
 .softer-life-img {
@@ -79,14 +80,16 @@
 .num-text {
     margin-bottom: 10px;
     line-height: 18px;
-	font-family: 'AvenirLT-Book',sans-serif;
+	font-family: 'Roboto',sans-serif;
 	font-weight: bold;
+	font-size: 16px;
+	color: #545454;
 }
 
 .num-fine-print {
-	color: #D8D8D8;
+	color: #000;
 	font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .article-img-left {
@@ -95,6 +98,19 @@
 
 .article-img-right {
 	background: url('/getmedia/5c792cd6-b6c3-4b45-a5ea-cd9c20cfe6ad/hard-water-effects.aspx') no-repeat center center;
+}
+
+.services-top {
+	background: url('/getmedia/3a10999d-40e7-424d-8608-1eb0d1a9dce6/coolers.aspx') no-repeat center center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+	.softer-life {
+		/* width: 150%; */
+		font-size: 32px;
+		padding: 24px;
+	}
 }
 
 @media screen and (max-width: 768px) {

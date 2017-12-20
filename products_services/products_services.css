@@ -54,6 +54,16 @@ h2 {
     letter-spacing: 0.3em;
 }
 
+.hero-eyebrows {
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    color: #545454;
+    line-height: 28px;
+}
+
 .hero-image {
     background: url("/getmedia/342500e8-331c-427a-a97c-892aef10b74d/products-services-hero-hq.aspx") no-repeat center right;
     background-size: cover;
@@ -68,15 +78,16 @@ h2 {
     width: 45%;
 }
 
-.hero-title {
+.hero-title, .form-title {
     font-size: 52px;
     color: #08385B;
     font-family: 'AvenirLT-Black', sans-serif !important;
+    line-height: 61px;
 }
 
-.hero-text {
+.hero-text, .form-text {
     padding-right: 20%;
-    line-height: 130%;
+    line-height: 36px;
     color: #545454;
 
     font-family: Avenir-Medium, sans-serif;
@@ -151,6 +162,10 @@ h2 {
     color: #000000;
 }
 
+..filtration-text-lg p, .tastier-text p {
+    font-size: 16px !important;
+}
+
 .filtration-title,
 .softener-title-sm,
 .softener-title,
@@ -203,11 +218,9 @@ h2 {
 }
 
 .piggy-img {
-    opacity: 0.3;
     position: relative;
-    top: 10px;
+    width: 175px;
 }
-
 .cost-efficient {
     font-size: 18px;
     color: #aaa;
@@ -247,12 +260,10 @@ h2 {
 }
 
 .softener-text p {
-    /* font-size: 24px; */
     line-height: 130%;
-
     font-family: Roboto;
-    font-size: 16px;
-    color: #000000;
+    font-size: 24px;
+    color: #545454;
 }
 
 .softener-button {
@@ -265,7 +276,7 @@ h2 {
 
 .tastier-coffee {
     position: relative;
-    top: 95px;
+    top: 250px;
     left: 340px;
     width: 25%;
 }
@@ -312,7 +323,7 @@ h2 {
 }
 
 .drinks {
-    background: url("/getmedia/342bf71f-4747-4c89-83bc-6b18782f9304/drinks.aspx") no-repeat center center;
+    background: url("/getmedia/32ecc126-01ed-49d8-ad70-bd147e070803/delivery-dude.aspx") no-repeat center center;
     background-size: cover;
     width: 50% !important;
     margin-left: 0;
@@ -433,7 +444,7 @@ h2 {
 .arrow {
     font-size: 24px;
 }
-
+/* 
 .form-title {
   width:100%; 
   line-height: 130%; 
@@ -448,10 +459,33 @@ h2 {
   font-size:18px;
 
   font-family: Avenir-Medium, sans-serif;
-  /* font-size: 26px; */
   color: #545454;
 }
+ */
 
+.form-wave-icon {
+    padding-bottom: 30px;
+}
+
+.form-block {}
+
+.form-container .form-control {
+    height: 62px !important;
+}
+
+.form-fine-print {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 20px;
+}
+
+.f1-button-container input[type="submit"] {
+    height: 78px;
+    width: 275px;
+    font-size: 18px;
+    font-family: AvenirLT-Medium;
+}
 
 
 /* contact us form */
@@ -558,6 +592,10 @@ h2 {
     .hero-image {
         height: 600px;
     }
+
+    .tastier-coffee {
+        top: 170px;
+    }
 }
 
 @media screen and (max-width: 1366px) {
@@ -577,7 +615,7 @@ h2 {
         line-height: 160%;
     }
     .tastier-coffee {
-        top: 25px;
+        top: 90px;
         width: 22%;
     }
     .softening-img {
@@ -622,7 +660,7 @@ h2 {
         padding-top: 0;
     }
     .tastier-coffee {
-        display: none;
+        top: 5px;
     }
     .contact-us-form {
         top: 617px;

@@ -19,25 +19,38 @@
     color: #545454;
     letter-spacing: 2px;
     line-height: 28px;
+    padding-bottom: 10px;
 }
 
 .hero-title, .form-title {
     font-family: Avenir-Black, sans-serif;
     font-size: 52px;
+    line-height: 61px;
     color: #08385B;
     letter-spacing: 0;
 }
 
-.hero-text, .form-text {
+.hero-text, .form-text, .quote-text {
     font-family: Avenir-Medium, sans-serif;
     font-size: 26px;
+    line-height: 36px;
     color: #545454;
     letter-spacing: 0;
 }
 
+.arrow-down {
+    position: relative;
+    top: 75px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 32.5px 0 32.5px;
+    border-color: #f8e61c transparent transparent transparent;
+}
+
 .drinking-water-systems-block {
 	background: url('/getmedia/55d2da68-e88f-42f8-a5fd-85236dc84f9b/drinking-water-systems.aspx') no-repeat center center;
-	height: 600px;
+	height: 650px;
 	padding-top: 100px;
 	background-size: cover;
 	margin-right: -.75rem !important;
@@ -45,7 +58,7 @@
 
 .whole-house-filtration-block {
 	background: url('/getmedia/ca48dad5-bf15-44e2-9534-54ca4eb4358e/whole-house-filtration.aspx') no-repeat center center;
-	height: 600px;
+	height: 650px;
 	padding-top: 100px;
 	background-size: cover;
 	margin-left: -.75rem !important;
@@ -53,31 +66,53 @@
 
 .block-text-container {
 	background-color: white;
-	padding: 50px !important;
+	padding: 35px !important;
 	color: black;
+    min-height: 430px;
 }
 
 .block-text-title {
     font-size: 26px;
     color: #0083CA;
     font-family: sans-serif;
+    line-height: 36px;
 }
 
 .block-text {
     font-family: Roboto;
     font-size: 16px;
     color: #545454;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    line-height: 19px;
+}
+
+.block-text-icon {
+    width: 40px;
 }
 
 .learn-more-btn {
+    background-color: #B0D235;
     font-size: 16px;
     font-family: Roboto;
-    color: #0083CA;
-    border: 1px solid #0083ca;
-    padding: 7px;
+    color: white;
+    border: none;
+    padding: 10px;
     border-radius: 30px;
     text-align: center;
+}
+
+.learn-more-btn a {
+    color: #fff;
+}
+
+.culligan-blog-btn {
+    color: #0083CA;
+    border: 1px solid #0083ca;
+    background: none;
+}
+
+.culligan-blog-btn a {
+    color: #0083ca;
 }
 
 .filtration-difference-section {
@@ -85,8 +120,8 @@
 }
 
 .filtration-difference-img {
-    background: url(/getmedia/31abe07a-b89c-4e53-ac8a-d2030ab91f29/softener-filtration-difference.aspx) no-repeat center center;
-    height: 500px;
+    background: url('/getmedia/31abe07a-b89c-4e53-ac8a-d2030ab91f29/softener-filtration-difference.aspx') no-repeat center center;
+    height: 600px;
     background-size: cover;
     margin-top: 100px;
 }
@@ -94,10 +129,11 @@
 .filtration-difference-title {
     font-size: 26px;
     font-family: sans-serif;
+    line-height: 36px;
 }
 
 .filtration-difference-text {
-    background-color: #08385b;
+    background-color: #005795;
     color: #fff;
     padding: 50px 75px;
     width: 80%;
@@ -106,16 +142,18 @@
     bottom: 150px;
     font-family: Roboto;
     font-size: 16px;
+    line-height: 19px;
 }
 
 .see-more {
-    margin-top: 20px;
-    font-size: 16px;
+    /* margin-top: 20px; */
+    /* font-size: 16px; */
+    text-decoration: underline;
 }
 
 .diy-solutions-block {
 	background: url('/getmedia/edf2b77e-bfe4-4686-b0b7-f7646e1dbe3c/diy-solutions.aspx') no-repeat center center;
-	height: 600px;
+	height: 650px;
 	padding-top: 100px;
 	background-size: cover;
 	margin-right: -.75rem;
@@ -123,6 +161,8 @@
 
 .diy-solutions-container {
 	background-color: #0083CA;
+    padding-top: 80px !important;
+    min-height: 400px;
 }
 
 .diy-solutions-title,
@@ -136,15 +176,23 @@
 }
 
 .diy-solutions-btn {
-	border-color: white;
+    background: none;
+    border: 2px solid #fff;
 }
 
-.mobile-text {
+.diy-solutions-btn a {
+    color: #fff;
+}
+
+.mobile-text, .arrow {
 	display: inline;
+    font-size: 18px;
+    position: relative;
+    bottom: 16px;
 }
 
 .mobile-container {
-    background-color: #0083CA;
+    background-color: #B0D235;
     color: white;
     padding: 20px 5%;
     font-size: 18px;
@@ -158,7 +206,7 @@
 
 .culligan-blog-block {
 	background-color: #F0EFF3;
-	height: 600px;
+	height: 650px;
 	padding-top: 100px;
 	margin-left: -.75rem;
 }
@@ -177,12 +225,40 @@
 	/* background-size: cover; */
 }
 
+.culligan-blog-images {
+    margin-bottom: 25px;
+}
+
 .form-section {
     margin-top: 100px !important;
 }
 
 .form-title {
 	color: #0083ca;
+}
+
+.form-wave-icon {
+    padding-bottom: 30px;
+}
+
+.form-block {}
+
+.form-section .form-control {
+    height: 62px !important;
+}
+
+.form-fine-print {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 20px;
+}
+
+.f1-button-container input[type="submit"] {
+    height: 78px;
+    width: 275px;
+    font-size: 18px;
+    font-family: AvenirLT-Medium;
 }
 
 .free {
@@ -198,7 +274,7 @@
 	width: 60px;
 }
 
-.quote-text, .quote-attribution {
+/* .quote-text, .quote-attribution {
 	font-family: Avenir Medium, sans-serif;
 	font-size: 26px;
 	margin: 20px 0;
@@ -209,6 +285,27 @@
 
 .quote-attribution {
 	font-size: 18px;
+} */
+
+.quote-section {
+    margin-top: 100px !important;
+}
+
+.quote-text {
+    color: #545454;
+    text-align: center;
+    line-height: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quote-attribution {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #545454;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 
@@ -219,8 +316,8 @@
 }
 
 .contact-us-form {
-    position: absolute;
-    top: 1117px;
+    position: relative;
+    /* top: 1117px; */
     width: 300px;
     z-index: 1;
 }
@@ -265,6 +362,8 @@
     background-color: white;
     border: 1px solid #545454;
     padding: 10px;
+    position: absolute;
+    top: 44px;
 }
 
 .contact-us-form-text {
@@ -383,5 +482,11 @@
 	.form-section {
 		margin-top: 25px !important;
 	}
+
+    .whole-house-filtration-block,
+    .filtration-difference-img,
+    .culligan-blog-container {
+        margin-right: -.75rem;
+    }
 
 }

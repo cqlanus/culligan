@@ -16,6 +16,7 @@
 
 .reverse-osmosis-img {
 	background: url('/getmedia/090f9efc-0104-470f-9cda-a03904f81a85/reverse-osmosis-left-hand.aspx') no-repeat center center;
+	height: 450px !important;
 }
 
 .reverse-osmosis {
@@ -26,6 +27,7 @@
     font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 0;
+    line-height: 46px;
 }
 
 .reverse-osmosis-container {
@@ -44,12 +46,17 @@
 	background: url('/getmedia/1dcf5ace-3866-45d5-8916-8e188206346b/above-standard.aspx') no-repeat center center;
 }
 
+.side-graphic-text-title a {
+	color: #0083ca !important;
+}
+
 .article-img-left {
 	background: url('/getmedia/8aa46977-bd41-4967-83d7-db3bdf90f2a9/what-is-ro.aspx') no-repeat center center;
 }
 
 .article-img-right {
-	background: url('/getmedia/58463251-e9a9-4428-b1e6-80b1f65d1aab/lead-in-water.aspx') no-repeat center center;
+	/* background: url('/getmedia/58463251-e9a9-4428-b1e6-80b1f65d1aab/lead-in-water.aspx') no-repeat center center; */
+	display: none !important;
 }
 
 @media screen and (max-width: 768px) {

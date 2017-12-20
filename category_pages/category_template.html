@@ -53,7 +53,7 @@
 	
 </section>
 
-<section class="_products-section columns">
+<section class="products-section not-working columns">
 	<div class="products-grid column is-10-tablet is-offset-1-tablet">
 	      <cms:CMSWebPartZone ZoneID="products-grid" runat="server" />
 	</div>
@@ -102,6 +102,19 @@
 			</div>
 
 		</div>
+
+		<div class="miscellaneous-content">
+			<div class="columns">
+				<div class="infographic-image-left column is-6-tablet is-offset-1-tablet">
+					<!-- webpart includes image and div -->
+			      <cms:CMSWebPartZone ZoneID="infographic-image-left-2" runat="server" />
+				</div>
+				<div class="infographic-side-graphics column is-4-tablet">
+					<!-- variable webpart: images/text/buttons -->
+			      <cms:CMSWebPartZone ZoneID="infographic-side-graphics-2" runat="server" />
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -147,6 +160,7 @@
 		<div class="columns">
 			<div class="column is-one-third-tablet">
 				<div class="form-sidebar">
+					<div class="hero-eyebrows">HEY CULLIGAN!</div>
 					<h2 class="form-title">
 						<!-- webpart text -->
 						<cms:CMSWebPartZone ZoneID="form-title" runat="server" />
@@ -158,6 +172,10 @@
 				</div>
 			</div>
 			<div class="column is-two-thirds-tablet">
+				<div class="form-decoration">
+					<img src="/getmedia/e0a8f220-e456-4d67-b2bc-ef9393a45cf8/wave.aspx" alt="Wave" class="form-wave-icon">
+					<div class="form-fine-print">Fields marked with * are required.</div>
+				</div>
 				<div class="form-block">
 					<!-- webpart form -->
 					<cms:CMSWebPartZone ZoneID="form-block" runat="server" />

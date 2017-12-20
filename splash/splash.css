@@ -106,7 +106,7 @@
 
 		.culligan-section-container {
 			background-color: white;
-			padding: 50px 25px;
+			padding: 30px 25px;
 			width: 60%;
 			margin-left: 5%;
 		}
@@ -117,11 +117,20 @@
 		}
 
 		.culligan-section-title {
-		    font-size: 36px;
-		    font-family: Avenir-Black;
+		    font-size: 26px;
+		    line-height: 36px;
+		    font-family: Avenir-Medium;
 		    color: #0083ca;
 		    letter-spacing: 0;
 		    padding-bottom: 10px;
+		}
+
+		.culligan-section-container a:hover {
+			text-decoration: none;
+		}
+
+		.culligan-section-title:hover {
+			color: #09426B;
 		}
 
 		.culligan-section-text {

@@ -29,6 +29,11 @@
     font-size: 16px;
     color: #545454;
     line-height: 28px;
+    /* width: 120%; */
+}
+
+.eyebrow-link {
+    color: #0083ca;
 }
 
 .hero-title,
@@ -36,6 +41,12 @@
     font-family: Avenir-Black, sans-serif;
     font-size: 52px;
     color: #08385B;
+    line-height: 71px;
+    padding-bottom: 10px;
+}
+
+.hero-title h1 {
+    line-height: 71px;
 }
 
 .hero-text,
@@ -44,6 +55,7 @@
     font-family: Avenir-Medium, sans-serif;
     font-size: 26px;
     color: #545454;
+    line-height: 36px
 }
 
 .hero-text {
@@ -80,7 +92,7 @@
     background-color: #545454;
     color: white;
     font-size: 22px;
-    font-family: Avenir-Medium, sans-serif;
+    font-family: Avenir-Black, sans-serif;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -104,13 +116,14 @@
 
 .hey-culligan {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .contact-us-form-content {
     display: none;
     background-color: white;
     border: 1px solid #545454;
-    padding: 10px;
+    padding: 15px;
 }
 
 .contact-us-form-text {
@@ -129,7 +142,7 @@
     line-height: 48px;
     width: 100%;
     font-size: 18px;
-    margin-top: -15px !important;
+    margin-top: 0px !important;
     background-color: #005795;
 }
 
@@ -137,7 +150,7 @@
     display: inline-block;
     font-size: 16px;
     line-height: 30px;
-    margin: 17px 0 0 0;
+    /* margin: 17px 0 0 0; */
     border: 2px solid #0083ca;
     width: 45%;
     text-align: center;
@@ -156,8 +169,20 @@
 	/* display: none; */
 }
 
+.email-field, .phone-field {
+    margin-top: 0 !important;
+}
+
 .active-tabber {
 	display: inline-block !important;
+}
+
+.captcha-field-1 {
+    margin-top: -15px;
+}
+
+.big-form-captcha .CaptchaTextBox {
+    height: 32px !important;
 }
 
 
@@ -183,7 +208,7 @@
 .side-graphic-img-sm {
     background-size: cover;
     height: 90px;
-    margin: -.75rem;
+    margin-top: -.75rem;
     margin-bottom: 10px;
 }
 
@@ -196,6 +221,7 @@
     font-size: 16px;
     color: #545454;
     letter-spacing: 2px;
+    margin-bottom: 10px;
     /* line-height: 28px; */
     /* letter-spacing: 3px; */
 }
@@ -213,21 +239,21 @@
 
 /* ---- products section ---- */
 
-._products-section: {
-    margin-top: 100px;
+.products-section {
+    margin-top: 100px !important;
+    background: rgba(240, 239, 243, 0.50);
 }
 
 .products-grid {
     font-family: Roboto, sans-serif;
-    background: rgba(240, 239, 243, 0.50);
     padding: 75px;
-    margin-top: 100px;
 }
 
 .products-grid-box {
     border-color: #bbb !important;
     border-bottom: 1px solid;
     border-right: 1px solid;
+    padding: 30px;
 }
 
 .products-grid-box-right {
@@ -241,10 +267,11 @@
 .products-grid-title {
     font-family: Avenir-Black, sans-serif;
     font-size: 36px;
-    color: #0083CA;
+    color: #09426B;
+    line-height: 46px;
 }
 
-.products-grid-item-title a {
+.products-grid-item-title a, .products-grid-item-title {
     color: #0083CA !important;
     font-family: Roboto;
     font-size: 18px;
@@ -256,6 +283,7 @@
     font-family: Roboto;
     font-size: 16px;
     color: #000000;
+    line-height: 19px;
 }
 
 .products-grid-btn {
@@ -268,6 +296,7 @@
     font-size: 16px;
     margin-top: 20px;
     color: #000;
+    display: block;
 }
 
 .products-title {}
@@ -302,17 +331,17 @@
 .article-block-right {
     position: relative;
     right: 25%;
-    top: 35%;
+    top: 20%;
     background-color: #fff;
-    padding: 20px;
+    padding: 25px;
 }
 
 .article-block-left {
     position: relative;
     left: 25%;
-    top: 35%;
+    top: 20%;
     background-color: #fff;
-    padding: 20px;
+    padding: 25px;
     z-index: 1;
 }
 
@@ -321,6 +350,7 @@
     font-size: 26px;
     color: #000000;
     margin-bottom: 0;
+    line-height: 36px;
 }
 
 .article-text {}
@@ -330,12 +360,14 @@
     font-size: 16px;
     color: #545454;
     margin-top: 5px;
+    line-height: 19px;
     margin-bottom: 25px;
 }
 
 .main-text {
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    line-height: 19px;
 }
 
 .see-more a {
@@ -369,6 +401,7 @@
     font-family: Avenir-Black, sans-serif;
     font-size: 36px;
     color: #08385B;
+    line-height: 46px;
 }
 
 .tap-into-text {
@@ -411,6 +444,7 @@
 
 .salt-delivery-text {
     padding-top: 410px;
+    width: 40%;
 }
 
 
@@ -418,48 +452,63 @@
 /* ---- form section ---- */
 
 .form-section {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .form-sidebar {}
 
 
 
-/* .form-title {
+.form-title {
     color: #005795;
-    font-size: 32px;
-    font-family: 'AvenirLT-Black', sans-serif;
 }
-.form-text {
-    font-family: 'AvenirLT-Book', sans-serif;
-    font-size: 16px;
-    line-height: 125%;
-} */
 
 .form-text .free {
     color: #b0d235;
 }
 
+.form-wave-icon {
+    padding-bottom: 30px;
+}
+
 .form-block {}
 
+.form-section .form-control {
+    height: 62px;
+}
 
+.form-fine-print {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 20px;
+}
+
+.f1-button-container input[type="submit"] {
+    height: 78px;
+    width: 275px;
+    font-size: 18px;
+    font-family: AvenirLT-Medium;
+}
 
 /* quote section */
 
 .quote-section {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .quote-img {
     text-align: center;
-    /* opacity: 0.3; */
+}
+
+.quote-icon {
+    width: 60px;
 }
 
 .quote-text {
     text-align: center;
-    /* font-size: 20px; */
-    line-height: 140%;
-    padding-top: 25px;
+    line-height: 36px;
+    padding-top: 26px;
 }
 
 .quote-attribution {
@@ -467,9 +516,17 @@
     font-size: 16px;
     color: #545454;
     text-align: center;
-    padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
+
+@media screen and (max-width:1440px) {
+    .hero-section {
+        padding-left: 5%;
+        width: 55%;
+    }
+}
 
 @media screen and (max-width: 1170px) {
     .hero-background {
@@ -477,7 +534,12 @@
     }
 
     .hero-title {
-        font-size: 44px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .hero-title h1 {
+        line-height: inherit;
     }
 
     .form-title {
@@ -496,6 +558,10 @@
         top: 716px;
         width: 250px;
     }
+
+    .contact-us-form-header h2:after {
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -506,24 +572,32 @@
         top: 540px;
     }
     .hero-section {
-        width: 50%;
-        padding-left: 8%;
+        width: 55%;
+        padding-left: 5%;
         padding-top: 55px;
     }
     .hero-title,
     .form-title {
-        font-size: 40px;
+        font-size: 36px;
+        line-height: 48px;
     }
 
     .hero-text,
     .form-text {
         width: 100%;
         font-size: 16px;
+        line-height: 24px;
     }
 
     .contact-us-form {
         display: none;
     }
+
+    .eyebrow-nonlink {
+        display: block;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
