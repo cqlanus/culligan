@@ -1,348 +1,364 @@
-		.header-top-left {
-		  text-align: right;
-		}
-		.header-top-left div {
-		  display: inline-block;
-		  padding: 9px 0 0 35px;
-		  color: #005a9b;
-		  font-family: 'AvenirLT-Medium';
-		  font-size: 16px;
-		  margin-top: 6px;
-		}
-		.header-top-left .country-selector {
-		  position: relative;
-		  padding-bottom: 15px;
-		}
-		.country-selector ul {
-		  display:none;
-		  position:absolute;
-		  top: 39px;
-		  left: 24px;
-		  padding-left: 4px;
-		  padding-right: 4px;
-		  width: 180px;
-		  background: white;
-		  text-align: left;
-		  padding-bottom: 4px;
-		  z-index: 2;
-		}
-		.country-selector li {
-		  border-top: 1px solid #d6d5d9;
-		  padding: 0;
-		  list-style-type: none;
-		  height: 46px;
-		  line-height: 46px;
-		  padding-left: 8px;
-		}
-		.country-selector:hover ul, .country-selector ul:hover {
-		  display:block;
-		}
-		.header-top {
-		  background: rgba(255,255,255, .8);
-		  margin-bottom: -46px;
-		  position: relative;
-		  z-index: 10;
-		}
-		.header-top-left img {
-		  vertical-align: middle;
-		  display: inline-block;
-		  margin-right: 8px;
-		}
-		.header-top-left a, .header-top-left .country-selector span {
-		  display: inline-block;
-		  vertical-align: middle;
-		  color: #005a9b;
-		}
-		.header-top-left a i {
-		  vertical-align: text-top;
-		  margin-top: -2px;
-		}
-		.country-select {
-		  margin-left: 10px;
-		}
+.header-top-left {
+    text-align: right;
+}
 
-		.banner-section {
-			padding-bottom: 50px;
-		}
+.header-top-left div {
+    display: inline-block;
+    padding: 9px 0 0 35px;
+    color: #005a9b;
+    font-family: 'AvenirLT-Medium';
+    font-size: 16px;
+    margin-top: 6px;
+}
 
-		.banner-section .columns {
-			clear: both;
-		}
+.header-top-left .country-selector {
+    position: relative;
+    padding-bottom: 15px;
+}
 
-		.banner-section-logo {
-		    text-align: center;
-		}
+.country-selector ul {
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 180px;
+    background: white;
+    text-align: left;
+    padding-bottom: 4px;
+    z-index: 2;
+}
 
-		.home-section {
-			background: url('/getmedia/13138340-ea11-4504-81f9-efe1715f1c70/home-section.aspx') no-repeat center right;
-			height: 600px;
-			background-size: cover;
-		}
+.country-selector li {
+    border-top: 1px solid #d6d5d9;
+    padding: 0;
+    list-style-type: none;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 8px;
+}
 
-		.office-section {
-			background: url('/getmedia/3858e958-6047-471a-9ede-23f401cb0676/office-section.aspx') no-repeat center right;
-			height: 600px;
-			background-size: cover;
-		}
-		.business-section {
-			background: url('/getmedia/97885bdf-71e8-4c71-98b4-481edfe77388/business-section.aspx') no-repeat center right;
-			height: 600px;
-			background-size: cover;
-		}
-		.industrial-section {
-			background: url('/getmedia/a9f69023-6e07-48c8-90e7-77db5f6790cf/industrial-section.aspx') no-repeat center right;
-			height: 600px;
-			background-size: cover;
-		}
+.country-selector:hover ul,
+.country-selector ul:hover {
+    display: block;
+}
 
-		.culligan-section {
-			padding-top: 200px;
-			margin-right: -1.5rem;
-		}
+.header-top {
+    background: rgba(255, 255, 255, .8);
+    margin-bottom: -46px;
+    position: relative;
+    z-index: 10;
+}
 
-		.industrial-section {
-			margin-right: inherit;
-		}
+.header-top-left img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 8px;
+}
 
-		.culligan-section-container {
-			background-color: white;
-			padding: 30px 25px;
-			width: 60%;
-			margin-left: 5%;
-		}
+.header-top-left a,
+.header-top-left .country-selector span {
+    display: inline-block;
+    vertical-align: middle;
+    color: #005a9b;
+}
 
-		.culligan-section-icon img {
-			width: 40px;
-			padding-bottom: 15px;
-		}
+.header-top-left a i {
+    vertical-align: text-top;
+    margin-top: -2px;
+}
 
-		.culligan-section-title {
-		    font-size: 26px;
-		    line-height: 36px;
-		    font-family: Avenir-Medium;
-		    color: #0083ca;
-		    letter-spacing: 0;
-		    padding-bottom: 10px;
-		}
+.country-select {
+    margin-left: 10px;
+}
 
-		.culligan-section-container a:hover {
-			text-decoration: none;
-		}
+.banner-section {
+    padding-bottom: 50px;
+}
 
-		.culligan-section-title:hover {
-			color: #09426B;
-		}
+.banner-section .columns {
+    clear: both;
+}
 
-		.culligan-section-text {
-		    font-family: Roboto;
-		    font-size: 16px;
-		    color: #545454;
-		    line-height: 130%;
-		}
+.banner-section-logo {
+    text-align: center;
+}
 
-		._footer {
-		    background: #f0eff3;
-		    padding: 30px 0 25px 0;
-		}
+.home-section {
+    background: url('/getmedia/13138340-ea11-4504-81f9-efe1715f1c70/home-section.aspx') no-repeat center right;
+}
 
-		.h1-footer-orig {
-			margin-left: inherit;
-			margin-bottom: 0;
-			padding: inherit;
-		}
+.office-section {
+    background: url('/getmedia/3858e958-6047-471a-9ede-23f401cb0676/office-section.aspx') no-repeat center right;
+}
 
-		.footer-title {
-		    font-size: 24px;
-		    font-family: Avenir-Black;
-		}
+.business-section {
+    background: url('/getmedia/97885bdf-71e8-4c71-98b4-481edfe77388/business-section.aspx') no-repeat center right;
+}
 
-		.footer-list-item {
-			font-size: 16px;
-		    padding: 5px 0;
-		    font-family: Roboto;
-		}
+.industrial-section {
+    background: url('/getmedia/a9f69023-6e07-48c8-90e7-77db5f6790cf/industrial-section.aspx') no-repeat center right;
+}
 
-		.footer-list-item a {
-			color: #0083ca;
-		}
+.culligan-section {
+    padding-top: 200px;
+    margin-right: -1.5rem;
+    height: 550px;
+    background-size: cover;
+}
 
-		.subFooter {
-			background-color: #f0eff3;
-		}
+.industrial-section {
+    margin-right: inherit;
+}
 
-		.bigWrapper {
-			border-top: 2px solid #bbb;
-			font-size: 16px;
-			font-family: Roboto, sans-serif;
-		}
+.culligan-section-container {
+    background-color: white;
+    padding: 30px 25px;
+    width: 60%;
+    margin-left: 5%;
+}
 
-		.mobile-nav {
-		    background-color: #0083ca;
-		    color: white;
-		    padding: 15px 5%;
-		}
+.culligan-section-icon img {
+    width: 40px;
+    padding-bottom: 15px;
+}
 
-		.mobile-nav a {
-			display: flex;
-		}
+.culligan-section-title {
+    font-size: 26px;
+    line-height: 36px;
+    font-family: Avenir-Medium;
+    color: #0083ca;
+    letter-spacing: 0;
+    padding-bottom: 10px;
+}
 
-		.mobile-nav-icon {
-		}
+.culligan-section-container a:hover {
+    text-decoration: none;
+}
 
-		.mobile-nav-icon img {
-			width: 30px;
-		}
+.culligan-section-title:hover {
+    color: #09426B;
+}
 
-		.mobile-nav-text {
-			margin-bottom: 0;
-		    margin-top: 5px;
-		    margin-left: 10px;
-		    font-size: 18px;
+.culligan-section-text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #545454;
+    line-height: 130%;
+}
 
-		}
+._footer {
+    background: #f0eff3;
+    padding: 30px 0 25px 0;
+}
 
-		.arrow {
-			font-size: 24px;
-		}
+.h1-footer-orig {
+    margin-left: inherit;
+    margin-bottom: 0;
+    padding: inherit;
+}
 
-		.right-side-footer {
-			text-align: right;
-			float: right;
-		}
+.footer-title {
+    font-size: 24px;
+    font-family: Avenir-Black;
+}
 
-		.subFooter {
-			font-family: Roboto, sans-serif;
-		}
+.footer-list-item {
+    font-size: 16px;
+    padding: 5px 0;
+    font-family: Roboto;
+}
 
-		.mobile-subfooter {
-		    padding-bottom: 40px;
-		    background-color: #f0eff3;
-		    color: #0083ca;
-		    font-size: 18px !important;
-		    display: none;
-		}
+.footer-list-item a {
+    color: #0083ca;
+}
 
-		.mobile-subfooter a {
-			color: #0083ca;
-			font-size: 18px !important;
-		}
+.subFooter {
+    background-color: #f0eff3;
+}
 
-		footer.mobile-subfooter div {
-		    margin-bottom: 25px;
-		}
+.bigWrapper {
+    border-top: 2px solid #bbb;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
 
-		.culligan-cares-logo a {
-			margin: 0;
-			position: relative;
-			bottom: 8px;
-		}
+.mobile-nav {
+    background-color: #0083ca;
+    color: white;
+    padding: 15px 5%;
+}
 
-		.worldwide-text {
-			position: relative;
-			bottom: 15px;
-		}
+.mobile-nav a {
+    display: flex;
+}
 
-		.mobile-copyright {
-			margin-bottom: 15px !important;
-		}
+.mobile-nav-icon {}
 
-		.mobile-footer-links a {
-			margin: 0 5px;
-		}
+.mobile-nav-icon img {
+    width: 30px;
+}
 
-		@media screen and (max-width:1400px) {
+.mobile-nav-text {
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
 
-			.culligan-section-container {
-				width: 75%;
-			}
-			.culligan-section-title {
-				font-size: 24px;
-			}
+.arrow {
+    font-size: 24px;
+}
 
-			.bigWrapper {
-				font-size: 16px !important;
-			}
+.right-side-footer {
+    text-align: right;
+    float: right;
+}
 
-			.fot-copyright, 
-			.footer-links,
-			.desktop-culligan-cares,
-			.desktop-culligan-worldwide,
-			.desktop-copyright,
-			footer a {
-				font-size: 16px !important;
-			}
-		}
+.subFooter {
+    font-family: Roboto, sans-serif;
+}
 
-		@media screen and (max-width: 1200px) {
-			.bigWrapper {
-				margin-left: 0 !important;
-				width: 100% !important;
-			}
-		}
+.mobile-subfooter {
+    padding-bottom: 40px;
+    background-color: #f0eff3;
+    color: #0083ca;
+    font-size: 18px !important;
+    display: none;
+}
 
-		@media screen and (max-width: 992px) {
+.mobile-subfooter a {
+    color: #0083ca;
+    font-size: 18px !important;
+}
 
-			.home-section,
-			.office-section,
-			.business-section,
-			.industrial-section {
-				background-position: top right;
-			}
+footer.mobile-subfooter div {
+    margin-bottom: 25px;
+}
 
-			.culligan-section-container {
-				width: inherit;
-				margin-left: inherit;
-				margin-right: 5%;
-				padding: 50px 15px
-			}
+.culligan-cares-logo a {
+    margin: 0;
+    position: relative;
+    bottom: 8px;
+}
 
-			.culligan-section-title {
-				font-size: 24px;
-			}
-			.culligan-section-text {
-				font-size: 14px;
-			}
+.worldwide-text {
+    position: relative;
+    bottom: 15px;
+}
 
-			.footer-section {
-				text-align: center;
-			}
+.mobile-copyright {
+    margin-bottom: 15px !important;
+}
 
-			.mobile-subfooter {
-				display: block;
-			}
-		}
+.mobile-footer-links a {
+    margin: 0 5px;
+}
 
-		@media screen and (max-width: 768px) {
-			.home-section,
-			.office-section,
-			.business-section,
-			.industrial-section {
-				height: 300px;
-			}
+.fot-copyright,
+.footer-links,
+.desktop-culligan-cares,
+.desktop-culligan-worldwide,
+.desktop-copyright,
+footer a {
+    color: #0083ca !important;
+}
 
-			.banner-section-logo {
-			    padding-top: 46px;
-			}
+@media screen and (max-width:1400px) {
 
-			.culligan-section {
-				padding-top: 250px;
-			}
+    .culligan-section-container {
+        width: 75%;
+    }
+    .culligan-section-title {
+        font-size: 24px;
+    }
 
-			.work-with-us-list {
-				display: none;
-			}
+    .bigWrapper {
+        font-size: 16px !important;
+    }
 
-			.work-with-us-title {
-				cursor: pointer;
-			}
+    .fot-copyright,
+    .footer-links,
+    .desktop-culligan-cares,
+    .desktop-culligan-worldwide,
+    .desktop-copyright,
+    footer a {
+        font-size: 16px !important;
+        color: #0083ca !important;
+    }
+}
 
-			.work-with-us-title:after {
-			    border-width: 12px 8px 0 8px;
-			    position: relative;
-			    border-color: #545454 transparent;
-			    content: '';
-			    border-style: solid;
-			    top: 19px;
-			    left: 10px;
-			}
-		}
+@media screen and (max-width: 1200px) {
+    .bigWrapper {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .home-section,
+    .office-section,
+    .business-section,
+    .industrial-section {
+        background-position: top right;
+    }
+
+    .culligan-section-container {
+        width: inherit;
+        margin-left: inherit;
+        margin-right: 5%;
+        padding: 50px 15px
+    }
+
+    .culligan-section-title {
+        font-size: 24px;
+    }
+    .culligan-section-text {
+        font-size: 14px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .mobile-subfooter {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-section,
+    .office-section,
+    .business-section,
+    .industrial-section {
+        height: 300px;
+    }
+
+    .banner-section-logo {
+        padding-top: 46px;
+    }
+
+    .culligan-section {
+        padding-top: 250px;
+    }
+
+    .work-with-us-list {
+        display: none;
+    }
+
+    .work-with-us-title {
+        cursor: pointer;
+    }
+
+    .work-with-us-title:after {
+        border-width: 12px 8px 0 8px;
+        position: relative;
+        border-color: #545454 transparent;
+        content: '';
+        border-style: solid;
+        top: 19px;
+        left: 10px;
+    }
+}
