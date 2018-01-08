@@ -29,24 +29,14 @@ $(document).ready(function() {
     });
 
 
-    // $(document).on('click', '.contact-us-form-content label', function() {
-    //     var isActive = $(this).hasClass('active-label');
-
-    //     if (!isActive) {
-    //         // $('.contact-field').hide();
-    //         $('.active-label').removeClass('active-label');
-    //         $(this).addClass('active-label');
-    //         $('.active-tabber').removeClass('active-tabber');
-    //         $('#' + $(this).attr('for')).addClass('active-tabber');
-
-    //     }
-    // });
-
-
-
-
     $(document).on('click', '.contact-us-form-header', function() {
         $('.contact-us-form-content').toggleClass('active');
+    });
+
+    $(document).on('click', '.contact-us-form-content input[type="submit"]', function() {
+        $(this).click(function() { return false; });
+        $(this).addClass('disabled');
+        return true;
     });
 
     // var sticky = new Waypoint.Sticky({
@@ -62,6 +52,6 @@ $(document).ready(function() {
             direction === 'up' && $('.contact-us-form').removeClass('stuck');
         }
 
-    })
+    });
 
 });
