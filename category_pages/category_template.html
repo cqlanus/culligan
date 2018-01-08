@@ -21,11 +21,13 @@
 	<div class="column is-3-tablet is-offset-8-tablet">
 		<div class="contact-us-form">
 			<div class="contact-us-form-header">
-				<h2 class="hey-culligan">HEY CULLIGAN!</h2>
+				<!-- <h2 class="hey-culligan">HEY CULLIGAN!</h2> -->
+				<cms:CMSWebPartZone ZoneID="contact-us-title" runat="server" />
 			</div>
 			<div class="contact-us-form-content">
 				<div class="contact-us-form-text">
-					Let us help you find the best solution for your water needs.
+					<!-- Let us help you find the best solution for your water needs. -->
+					<cms:CMSWebPartZone ZoneID="contact-us-text" runat="server" />
 				</div>
 				<cms:CMSWebPartZone ZoneID="contact-us-form" runat="server" />
 			</div>
@@ -53,9 +55,14 @@
 	
 </section>
 
-<section class="products-section not-working columns">
+<section class="products-section not-working">
 	<div class="products-grid column is-10-tablet is-offset-1-tablet">
 	      <cms:CMSWebPartZone ZoneID="products-grid" runat="server" />
+	</div>
+	<div class="products-section-2">
+		<div class="products-grid column is-10-tablet is-offset-1-tablet">
+	      	<cms:CMSWebPartZone ZoneID="products-grid-2" runat="server" />
+		</div>
 	</div>
 </section>
 
@@ -123,7 +130,7 @@
 		<div class="columns">
 			<div class="column is-6-tablet">
 				<div class="column services-left-col">
-					<div class="services-left">
+					<div class="services-left" title="Close up of softened water on glass pane" aria-label="Close up of softened water on glass pane">
 						<!-- webpart text -->
 						<cms:CMSWebPartZone ZoneID="services-left" runat="server" />
 					</div>
@@ -160,7 +167,8 @@
 		<div class="columns">
 			<div class="column is-one-third-tablet">
 				<div class="form-sidebar">
-					<div class="hero-eyebrows">HEY CULLIGAN!</div>
+					<!-- <div class="hero-eyebrows">HEY CULLIGAN!</div> -->
+					<cms:CMSWebPartZone ZoneID="form-eyebrows" runat="server" />
 					<h2 class="form-title">
 						<!-- webpart text -->
 						<cms:CMSWebPartZone ZoneID="form-title" runat="server" />
@@ -173,8 +181,9 @@
 			</div>
 			<div class="column is-two-thirds-tablet">
 				<div class="form-decoration">
-					<img src="/getmedia/e0a8f220-e456-4d67-b2bc-ef9393a45cf8/wave.aspx" alt="Wave" class="form-wave-icon">
-					<div class="form-fine-print">Fields marked with * are required.</div>
+					<img src="/getmedia/19f6421d-6f5e-4c2d-acf6-aef3b0a86216/tight-wave.aspx" alt="Wave" class="form-wave-icon">
+					<!-- <div class="form-fine-print">Fields marked with * are required.</div> -->
+					<cms:CMSWebPartZone ZoneID="form-fine-print" runat="server" />
 				</div>
 				<div class="form-block">
 					<!-- webpart form -->

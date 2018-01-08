@@ -27,9 +27,10 @@ h2 {
 }
 
 .wide-btn {
-    padding: 0.5em 3em;
+    padding: 0.5em 30px;
     border-radius: 22px;
     border: #0083CA solid 1px;
+    display: inline-block;
 }
 
 .blue-btn {
@@ -90,7 +91,7 @@ h2 {
     line-height: 36px;
     color: #545454;
 
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     font-size: 26px;
 }
 
@@ -171,7 +172,7 @@ h2 {
 .softener-title,
 .filtration-title-lg,
 .tastier-title {
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
     color: #0083CA !important;
     /* color: #005795 !important; */
@@ -298,17 +299,17 @@ h2 {
     color: #000000;
 }
 
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 250px 250px;
     grid-gap: 15px;
     grid-template-areas: "a a b c" "d e b f"
-}
+} */
 
 .container-grid {
     padding-top: 10%;
-}
+} 
 
 .grid-item {
     height: 275px;
@@ -373,7 +374,7 @@ h2 {
   line-height: 130%; 
   padding-top:10%;
 
-  font-family: Avenir-Black, sans-serif;
+  font-family: AvenirLT-Black, sans-serif;
   font-size: 36px;
   /* color: #0083CA; */
 }
@@ -395,9 +396,12 @@ h2 {
   font-size:26px;
   line-height: 120%;
   position: relative;
-  top: 170px;
-
+  top: 145px;
   font-family: Roboto;
+}
+
+.salt-delivery .grid-text-lg {
+    top: 435px;
 }
 
 .at-service-sm .grid-text p {
@@ -448,7 +452,7 @@ h2 {
 .form-title {
   width:100%; 
   line-height: 130%; 
-  font-family: Avenir-Black, sans-serif;
+  font-family: AvenirLT-Black, sans-serif;
   font-size: 40px;
   color: #08385B;
 }
@@ -458,7 +462,7 @@ h2 {
   line-height: 130%; 
   font-size:18px;
 
-  font-family: Avenir-Medium, sans-serif;
+  font-family: AvenirLT-Medium, sans-serif;
   color: #545454;
 }
  */
@@ -469,7 +473,7 @@ h2 {
 
 .form-block {}
 
-.form-container .form-control {
+.form-container .form-control:not(.CaptchaTextBox) {
     height: 62px !important;
 }
 
@@ -485,6 +489,8 @@ h2 {
     width: 275px;
     font-size: 18px;
     font-family: AvenirLT-Medium;
+    background-color: #005795;
+    margin-top: 30px;
 }
 
 
@@ -506,7 +512,7 @@ h2 {
     background-color: #545454;
     color: white;
     font-size: 22px;
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -530,6 +536,7 @@ h2 {
 
 .hey-culligan {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .contact-us-form-content {
@@ -548,20 +555,32 @@ h2 {
 }
 
 .contact-us-form-content input {
+    /* margin: 15px 0 !important; */
+}
+
+.name-field, .zip-field, .captcha-field-1 input {
     margin: 15px 0 !important;
+}
+
+.captcha-field-1 {
+    margin-top: 0px !important;
+}
+
+.zip-field {
+    margin-bottom: 0px !important;
 }
 
 .contact-us-form-content input.btn {
     line-height: 48px;
     width: 100%;
     font-size: 18px;
-    margin-top: -15px !important;
+    margin-top: 0px !important;
     background-color: #005795;
 }
 
 .contact-us-form-content label {
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
     margin: 17px 0 0 0;
     border: 2px solid #0083ca;
@@ -585,6 +604,10 @@ h2 {
 .active-tabber {
     display: inline-block !important;
 }
+
+/* .water-exchange .grid-text-lg {
+
+} */
 
 
 @media screen and (max-width: 1700px) {
@@ -728,7 +751,7 @@ h2 {
         height: 300px;
     }
     .hero-block {
-        top: 325px;
+        top: 305px !important;
         padding-left: 5%;
         width: 40%;
     }
@@ -795,7 +818,8 @@ h2 {
 
     .hero-title {
         font-size: 36px;
-        padding-right: 50%;
+        line-height: 46px;
+        /* padding-right: 50%; */
     }
 
     .hero-text {
@@ -812,7 +836,7 @@ h2 {
 
     .container-grid,
     .small-filtration-row {
-        padding-top: 250px;
+        padding-top: 270px;
     }
 }
 

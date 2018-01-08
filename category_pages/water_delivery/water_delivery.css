@@ -4,6 +4,7 @@
 
 .piggy-container {
 	text-align: right;
+	padding: 0 !important;
 }
 
 .piggy {
@@ -13,45 +14,65 @@
 .water-delivery-img {
 	background: url('/getmedia/f75c065a-7b5d-487f-a8d1-d443847d2eb9/delivery-pricing.aspx') no-repeat center center;
 	padding-top: 75px;
+	height: 500px !important;
 }
 
 .water-delivery-container {
     background-color: white;
-    width: 50%;
     margin: 0px auto;
-    padding: 10%;
-    text-align: center;
+    padding: 50px 30px !important;
+}
+
+.as-low-as {
+	margin-bottom: 15px;
+	font-size: 18px;
 }
 
 .water-delivery-price {
     color: #0083CA;
-    font-size: 72px;
+    font-size: 120px;
     font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .cents {
-    font-size: 45px;
+    font-size: 56px;
     position: relative;
-    bottom: 20px;
+    bottom: 45px;
 }
 
 .per-month {
     color: #0083CA;
-    font-size: 24px;
+    font-size: 36px;
     font-family: 'AvenirLT-Black', sans-serif;
     letter-spacing: 1px;
 }
 
 .cost-efficient-title {
     font-family: 'AvenirLT-Black', sans-serif;
-    color: #0083CA;
-    font-size: 28px;
+    color: #08385b;
+    font-size: 36px;
+    line-height: 46px;
 }
 
 .cost-efficient-text {
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 15px;
+    line-height: 19px;
+    margin-bottom: 26px;
+    font-family: Roboto, sans-serif;
+}
+
+.cost-efficient-fine-print {
+	font-size: 16px;
+    font-family: Roboto, sans-serif;
+	line-height: 19px;
+}
+
+.cost-efficient-link {
+	color: #0083ca;
+	font-size: 18px;
+	margin-bottom: 36px;
+	display: block;
 }
 
 .article-img-right {
@@ -65,6 +86,18 @@
 
 .quote-icon {
 	width: 60px;
+}
+
+.products-section {
+	margin-right: -1.5rem;
+}
+
+.products-section-2 {
+	display: none;
+}
+
+.miscellaneous-content {
+	display: none;
 }
 
 @media screen and (max-width: 1400px) {
@@ -81,10 +114,11 @@
 	.water-delivery-container {
 		width: 70%;
 		padding: 5%;
+		text-align: center;
 	}
 
 	.water-delivery-img {
-		padding-top: 165px;
+	    padding-top: 75px;
 	}
 }
 
@@ -119,15 +153,15 @@
 
 	.article-img-right {
 	    right: 0 !important;
-	    bottom: 150px;
-	    height: 330px !important;
+	    bottom: 200px;
+	    height: 300px !important;
 	}
 
 	.article-block-left {
 		left: 0 !important;
 	    width: 80%;
 	    margin-left: 10%;
-	    top: 280px !important;
+	    top: 250px !important;
 	}
 
 	.products-grid {
@@ -135,13 +169,17 @@
 	}
 
 	.form-section {
-		margin-top: 0 !important;
+		margin-top: -75px !important;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.infographic-section {
 		margin-top: 225px!important;
+	}
+
+	.hero-section {
+		padding-top: 325px !important;
 	}
 }
 

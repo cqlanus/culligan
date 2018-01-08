@@ -1,63 +1,90 @@
-<script type="text/javascript" charset="utf-8" async defer>
-$(document).ready(function(){
-    $('.aside-form .form-wrapper label').on('click', function(){
-      if(!$(this).hasClass('active-label')){
-        $('.active-tabber').removeClass('active-tabber');
-        $('.active-label').removeClass('active-label');
-        $('#'+ $(this).attr('for')).addClass('active-tabber');
-        $(this).addClass('active-label');
-      }
-    });
-    $('#form-toggle').on('click', function(){
-      $('.sticky-form.stuck').toggleClass('active');
-    });
-    var sticky;
-    var inview;
-    function createSticky(){
-      if($(window).height() > ($('.sticky-form').height())){
-        sticky = new Waypoint.Sticky({
-          element: $('.sticky-form')[0]
-        });
-        inview = new Waypoint.Inview({
-            element: $('.gif-feature')[0],
-            enter: function(direction) {
-                console.log('enter');
-                console.log(direction);
-             },
-            entered: function(direction) {
-                console.log('entered')
-                console.log(direction);
-            },
-            exit: function(direction) {
-                console.log('exit');
-                console.log(direction);
-            },
-            exited: function(direction) {
-                console.log('exited');
-                console.log(direction);
-            }
-            })
-      }
-      resizeSticky();
-    }
-    function initStickies(){
-        createSticky();
-    }
-    function resizeSticky(){
-      if (Modernizr.mq('(min-width: 992px)')) {
-        $('.sticky-form').width(($('.container').outerWidth() * 0.33333333333 - 30));
-      }
-      else if(Modernizr.mq('(min-width: 768px)') && Modernizr.mq('(max-width: 992px)')) {
-        $('.sticky-form').width(($('.zoneMainContent').width() * 0.4166666667 - 30));
-      }
-      else{
-        $('.sticky-form').width($('.zoneMainContent').width());
-      }
-    }
-    $(window).resize(function(){
-      resizeSticky();
-    });
-    initStickies();
-  });
+<!-- contact form title -->
+<h2>HEY CULLIGAN!</h2>
 
-</script>
+<!-- contact form text -->
+Let us help you find the best solution for your water needs.
+
+<!-- better water button -->
+<a class="btn-thin-white" href="/home/products-services-landing">Products + Services</a>
+
+
+<!-- better water titles -->
+<div class="eyebrow">WATER SOFTENING</div>
+<a class="feature-list-item-headline" href="/home/water-softening/water-softeners">A Little Softness Goes A Long Way</a>
+
+
+<div class="eyebrow">WATER FILTRATION</div>
+<a class="feature-list-item-headline" href="/home/water-filtration/whole-house-water-filters">A Cleaner Life Starts Here</a>
+
+<div class="eyebrow">DRINKING WATER</div>
+<a class="feature-list-item-headline" href="/home/water-filtration/drinking-water-systems">Water The Way It Should Taste</a>
+
+<!-- quotes section quotes -->
+<!-- quote1 -->
+<blockquote>
+    <p>The Culligan Team has always been courteous, patient and helpful.</p>
+    <footer>
+        <cite>Stacey &mdash; Palo Alto, CA</cite>
+    </footer>
+</blockquote>
+
+<!-- quote2 -->
+<blockquote>
+    <p>I never had a repair on any of the  systems over the  past 30 years.</p>
+    <footer>
+        <cite>Doug &mdash; Ephrata, PA</cite>
+    </footer>
+</blockquote>
+
+<!-- quote3 -->
+<blockquote>
+    <p>I have saved so much!</p>
+    <footer>
+        <cite>Esther &mdash; San Diego, CA</cite>
+    </footer>
+</blockquote>
+
+<!-- quote4 -->
+<blockquote>
+    <p>I am very happy  with the work. My drinking water is 100% improved.</p>
+    <footer>
+        <cite>Dee &mdash; Crown Point, IN</cite>
+    </footer>
+</blockquote>
+
+
+<!-- get started headlines -->
+<!-- headline1 -->
+<div class="eyebrow" style="color:white;">.</div>
+<a class="get-started-title" href="/home/solution-center/online-water-diagnosis">Find The Solution That's Clearly For You</a>
+
+<!-- headline2 -->
+<div class="eyebrow">HEY CULLIGAN!</div>
+<a class="get-started-title" href="/dealer-locator">Find The Solution That's Clearly For You</a>
+
+<!-- headline3 -->
+<div class="eyebrow" style="color:white;">.</div>
+<a class="get-started-title" href="/home/contact-us">Find The Solution That's Clearly For You</a>
+
+
+<!-- form details -->
+<div class="eyebrow">HEY CULLIGAN!</div>
+<div class="form-fine-print">Fields marked with * are required.</div>
+
+
+<!-- ----------------------------- -->
+<!-- french contact form details -->
+<style type="text/css" media="screen">
+    .contact-us-form-header {
+        text-align: left;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+</style>
+<h2 class="hey-culligan">BONJOUR CULLIGAN!</h2>
+Let us help you find the best solution for your water needs.
+
+
+<!-- french form details -->
+<div class="eyebrow">BONJOUR CULLIGAN!</div>
+<div class="form-fine-print">Fields marked with * are required.</div>

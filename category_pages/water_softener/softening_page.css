@@ -12,7 +12,7 @@
     font-size: 36px;
     padding: 30px;
     margin: -.75rem;
-    font-family: Avenir-Black;
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .softer-life-img {
@@ -56,13 +56,13 @@
 .you-can-get {
 	margin-bottom: 0;
 	margin-top: 24px;
-	font-family: Avenir-Black, sans-serif;
+	font-family: 'AvenirLT-Black', sans-serif;
     font-size: 36px;
     color: #005795;
 }
 
 .big-num {
-	font-family: Avenir-Black, sans-serif;
+	font-family: 'AvenirLT-Black', sans-serif;
     font-size: 120px;
     color: #C6C6C6;
 }
@@ -72,7 +72,7 @@
     bottom: 40px;
     left: 5px;
 
-    font-family: Avenir-Black, sans-serif;
+    font-family: 'AvenirLT-Black', sans-serif;
     font-size: 60px;
     color: #C6C6C6;
 }
@@ -88,7 +88,7 @@
 
 .num-fine-print {
 	color: #000;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -103,6 +103,10 @@
 .services-top {
 	background: url('/getmedia/3a10999d-40e7-424d-8608-1eb0d1a9dce6/coolers.aspx') no-repeat center center;
 	background-size: cover;
+}
+
+.miscellaneous-content, .products-section-2 {
+	display: none;
 }
 
 @media screen and (max-width: 992px) {
@@ -142,28 +146,31 @@
 		margin-left: -5%;
 		margin-top: 50px !important;
 	}
-	./* softer-life-img {
-		background: none;
-		height: 0;
-	} */
+
 	.softer-life-container {
 		right: 0;
 	}
 
-	/* .softer-benefits-text {
-    	padding: 0 .75rem .75rem .75rem !important;
-	}
-	.softer-benefits-text.first {
-		margin-top: 50px;
-	}
-
-
-	.softer-benefits-img {
-		display: none;
-	} */
-
 	.infographic-side-graphics {
 		margin-top: 100px;
+	}
+
+	.article-img-left {
+		height: 300px !important;
+	}
+
+	.services-section {
+		margin-top: -125px !important;
+	}
+
+	.salt-delivery-text {
+		width: 45% !important;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.hero-section {
+		padding-top: 330px !important;
 	}
 }
 

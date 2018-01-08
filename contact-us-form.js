@@ -1,6 +1,12 @@
 $(document).ready(function() {
-    $('.contact-us-form-content label').first().text('Email Me').addClass('active-label');
-    $('.contact-us-form-content label').first().next().text('Call Me');
+    var emailLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Envoyer un email' : 'Email Me';
+    var callLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Appelle-moi' : 'Call Me'
+    var securityLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Entrer le code de sécurité:' : 'Enter security code:'
+    
+    $('.contact-us-form-content label').first().text(emailLabel).addClass('active-label');
+    $('.contact-us-form-content label').first().next().text(callLabel);
+    $('.captcha-field-1 label').text(securityLabel);
+    
     $('.phone-field').hide();
 
     $('.contact-us-form-content label').on('click', function() {

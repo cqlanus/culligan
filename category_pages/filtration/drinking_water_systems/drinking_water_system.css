@@ -1,5 +1,6 @@
 .hero-background {
-	background: url('/getmedia/b28082d6-9725-4d3a-89cf-0aade8863bbd/drinking-water-hero-lg.aspx') no-repeat center center;
+	/* background: url('/getmedia/b28082d6-9725-4d3a-89cf-0aade8863bbd/drinking-water-hero-lg.aspx') no-repeat center center; */
+	background: url('/getmedia/9581caa9-6be8-48d7-b4f5-16898e607193/drinking-water-hero-lg.aspx') no-repeat center center;
 }
 
 .infographic-below-graphics {
@@ -23,7 +24,7 @@
     background-color: #0083CA;
     color: white;
     padding: 30px 50px;
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -50,13 +51,16 @@
 	color: #0083ca !important;
 }
 
-.article-img-left {
+.article-img-right {
 	background: url('/getmedia/8aa46977-bd41-4967-83d7-db3bdf90f2a9/what-is-ro.aspx') no-repeat center center;
 }
 
-.article-img-right {
-	/* background: url('/getmedia/58463251-e9a9-4428-b1e6-80b1f65d1aab/lead-in-water.aspx') no-repeat center center; */
+.article1, .miscellaneous-content {
 	display: none !important;
+}
+
+.products-section-2 {
+	display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -73,9 +77,50 @@
 
 	.reverse-osmosis {
 		font-size: 25px;
+		line-height: 36px;
 	}
 
-	.article1, .hero-background {
+	.left-hand-img {
+		height: 0 !important;
+	}
+
+	.article2 {
+		display: block !important;
+	}
+
+	.article2, .hero-background {
 	    margin-right: -1.5rem !important;
+	}
+
+	.article-block-left {
+		left: 5% !important;
+		top: 200px !important;
+		width: 90% !important;
+	}
+
+	.article-img-right {
+		height: 300px !important;
+		right: 0 !important;
+		bottom: 275px!important;
+
+	}
+
+	.form-section {
+		margin-top: -100px !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.reverse-osmosis-container {
+		margin-top: -30px;
+		margin-right: -2rem;
+	}
+
+	.infographic-side-graphics {
+		margin-top: 130px;
+	}
+
+	.products-section {
+		margin-top: 40px !important;
 	}
 }

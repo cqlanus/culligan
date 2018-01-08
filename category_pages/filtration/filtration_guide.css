@@ -23,7 +23,7 @@
 }
 
 .hero-title, .form-title {
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 52px;
     line-height: 61px;
     color: #08385B;
@@ -31,7 +31,7 @@
 }
 
 .hero-text, .form-text, .quote-text {
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     font-size: 26px;
     line-height: 36px;
     color: #545454;
@@ -51,7 +51,7 @@
 .drinking-water-systems-block {
 	background: url('/getmedia/55d2da68-e88f-42f8-a5fd-85236dc84f9b/drinking-water-systems.aspx') no-repeat center center;
 	height: 650px;
-	padding-top: 100px;
+	padding-top: 75px;
 	background-size: cover;
 	margin-right: -.75rem !important;
 }
@@ -59,7 +59,7 @@
 .whole-house-filtration-block {
 	background: url('/getmedia/ca48dad5-bf15-44e2-9534-54ca4eb4358e/whole-house-filtration.aspx') no-repeat center center;
 	height: 650px;
-	padding-top: 100px;
+	padding-top: 75px;
 	background-size: cover;
 	margin-left: -.75rem !important;
 }
@@ -90,6 +90,11 @@
     width: 40px;
 }
 
+.whole-house-filtration-container,
+.drinking-water-systems-container {
+    min-height: 500px;
+}
+
 .learn-more-btn {
     background-color: #B0D235;
     font-size: 16px;
@@ -109,6 +114,9 @@
     color: #0083CA;
     border: 1px solid #0083ca;
     background: none;
+    width: 200px;
+    padding: 10px 30px;
+    display: inline-block;
 }
 
 .culligan-blog-btn a {
@@ -121,7 +129,7 @@
 
 .filtration-difference-img {
     background: url('/getmedia/31abe07a-b89c-4e53-ac8a-d2030ab91f29/softener-filtration-difference.aspx') no-repeat center center;
-    height: 600px;
+    height: 500px;
     background-size: cover;
     margin-top: 100px;
 }
@@ -178,6 +186,9 @@
 .diy-solutions-btn {
     background: none;
     border: 2px solid #fff;
+    display: inline-block;
+    width: 200px;
+    padding: 10px 30px;
 }
 
 .diy-solutions-btn a {
@@ -212,14 +223,14 @@
 }
 
 .culligan-blog-img-1 {
-	background: url('/getmedia/39147e2e-fd10-4350-a48d-ea2cdb9ef697/culligan-blog-1.aspx') no-repeat center center;
+	/* background: url('/getmedia/39147e2e-fd10-4350-a48d-ea2cdb9ef697/culligan-blog-1.aspx') no-repeat center center; */
 	height: 200px;
 	width: 200px;
 	/* background-size: cover; */
 }
 
 .culligan-blog-img-2 {
-	background: url('/getmedia/46adfea2-8713-4e52-b85d-ecc29e7fdfa8/culligan-blog-2.aspx') no-repeat center center;
+	/* background: url('/getmedia/46adfea2-8713-4e52-b85d-ecc29e7fdfa8/culligan-blog-2.aspx') no-repeat center center; */
 	height: 200px;
 	width: 200px;
 	/* background-size: cover; */
@@ -234,7 +245,7 @@
 }
 
 .form-title {
-	color: #0083ca;
+	color: #08385b;
 }
 
 .form-wave-icon {
@@ -243,7 +254,7 @@
 
 .form-block {}
 
-.form-section .form-control {
+.form-section .form-control:not(.CaptchaTextBox) {
     height: 62px !important;
 }
 
@@ -254,11 +265,17 @@
     padding-bottom: 20px;
 }
 
+.CaptchaTextBox {
+    height: 34px !important;
+}
+
 .f1-button-container input[type="submit"] {
     height: 78px;
     width: 275px;
     font-size: 18px;
     font-family: AvenirLT-Medium;
+    background-color: #005795;
+    margin-top: 30px;
 }
 
 .free {
@@ -331,7 +348,7 @@
     background-color: #545454;
     color: white;
     font-size: 22px;
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -355,6 +372,7 @@
 
 .hey-culligan {
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .contact-us-form-content {
@@ -375,22 +393,34 @@
 }
 
 .contact-us-form-content input {
+    /* margin: 15px 0 !important; */
+}
+
+.name-field, .zip-field, .captcha-field-1 input {
     margin: 15px 0 !important;
+}
+
+.captcha-field-1 {
+    margin-top: 0px !important;
+}
+
+.zip-field {
+    margin-bottom: 0px !important;
 }
 
 .contact-us-form-content input.btn {
     line-height: 48px;
     width: 100%;
     font-size: 18px;
-    margin-top: -15px !important;
+    margin-top: 0px !important;
     background-color: #005795;
 }
 
 .contact-us-form-content label {
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
-    margin: 17px 0 0 0;
+    /* margin: 17px 0 0 0; */
     border: 2px solid #0083ca;
     width: 45%;
     text-align: center;
@@ -487,6 +517,14 @@
     .filtration-difference-img,
     .culligan-blog-container {
         margin-right: -.75rem;
+    }
+
+    .block-text-container {
+        min-height: 0;
+    }
+
+    .hero-background, .form-section {
+        padding-left: 5%;
     }
 
 }

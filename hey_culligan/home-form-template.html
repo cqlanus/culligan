@@ -1,5 +1,5 @@
 <div class="cms-shared-destination" data-cms-shared="subnav"></div>
-<header class="picture-hero">
+<header class="picture-hero" title="Father and daughter washing dishes" aria-label="Father and daughter washing dishes">
     <div class="hero-wrapper">
         <div class="hero-block">
             <cms:CMSWebPartZone ZoneID="HomeFormHeroHeadline" runat="server" />
@@ -14,22 +14,24 @@
 <main class="home-form-main">
     <div class="container">
         <div class="row">
-            <aside class="aside-form col-md-push-7 col-md-3">
+            <aside class="aside-form col-md-push-9 col-md-3">
                 <div class="sticky-form">
                     <div class="sticky-form-content">
                         <header id="form-toggle">
-                            <h2>HEY CULLIGAN!</h2>
+                            <cms:CMSWebPartZone ZoneID="HomeFormTitle" runat="server" />
                         </header>
                         <form>
                             <div class="form-wrapper">
-                                <div class="form-text">Let us help you find the best solution for your water needs.</div>
+                                <div class="form-text">
+                                    <cms:CMSWebPartZone ZoneID="HomeFormText" runat="server" />
+                                </div>
                                 <cms:CMSWebPartZone ZoneID="HomeFormFormSection" runat="server" />
                             </div>
                         </form>
                     </div>
                 </div>
             </aside>
-            <section class="col-md-pull-4 col-md-8 non-stick message-feature-container">
+            <section class="col-md-pull-3 col-md-8 non-stick message-feature-container">
                 <div class="message-feature">
                     <cms:CMSWebPartZone ZoneID="HomeFormMessageFeatureText" runat="server" />
                     <cms:CMSWebPartZone ZoneID="HomeFormMessageFeatureImage" runat="server" />
@@ -44,7 +46,7 @@
             <cms:CMSWebPartZone ZoneID="HomeFormGifFeatureText" runat="server" />
         </div>
     </section>
-    <section class="detail-list-feature">
+    <section class="detail-list-feature" id="better-water">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-7">
@@ -96,12 +98,7 @@
         <ul class="quote-grid">
             <li class="quote-grid-item">
                 <img src="/CulliganCom/media/images/New_Design/icon-quote.png" class="icon-quote" />
-                <blockquote>
-                    <p>The Culligan Team has always been courteous, patient and helpful.</p>
-                    <footer>
-                        <cite>Stacey &mdash; Palo Alto, CA</cite>
-                    </footer>
-                </blockquote>
+                <cms:CMSWebPartZone ZoneID="QuoteGridItem1" runat="server" />
             </li>
             <li class="quote-grid-item has-image">
                 <div class="quote-grid-image">
@@ -110,12 +107,7 @@
             </li>
             <li class="quote-grid-item">
                 <img src="/CulliganCom/media/images/New_Design/icon-quote.png" class="icon-quote" />
-                <blockquote>
-                    <p>The Culligan Team has always been courteous, patient and helpful.</p>
-                    <footer>
-                        <cite>Stacey &mdash; Palo Alto, CA</cite>
-                    </footer>
-                </blockquote>
+                <cms:CMSWebPartZone ZoneID="QuoteGridItem2" runat="server" />
             </li>
             <li class="quote-grid-item has-image">
                 <div class="quote-grid-image">
@@ -129,12 +121,7 @@
             </li>
             <li class="quote-grid-item">
                 <img src="/CulliganCom/media/images/New_Design/icon-quote.png" class="icon-quote" />
-                <blockquote>
-                    <p>The Culligan Team has always been courteous, patient and helpful.</p>
-                    <footer>
-                        <cite>Stacey &mdash; Palo Alto, CA</cite>
-                    </footer>
-                </blockquote>
+                <cms:CMSWebPartZone ZoneID="QuoteGridItem3" runat="server" />
             </li>
             <li class="quote-grid-item has-image">
                 <div class="quote-grid-image">
@@ -143,12 +130,7 @@
             </li>
             <li class="quote-grid-item">
                 <img src="/CulliganCom/media/images/New_Design/icon-quote.png" class="icon-quote" />
-                <blockquote>
-                    <p>The Culligan Team has always been courteous, patient and helpful.</p>
-                    <footer>
-                        <cite>Stacey &mdash; Palo Alto, CA</cite>
-                    </footer>
-                </blockquote>
+                <cms:CMSWebPartZone ZoneID="QuoteGridItem4" runat="server" />
             </li>
         </ul>
     </section>

@@ -1,6 +1,12 @@
   $(document).ready(function(){
-    $('.aside-form .form-wrapper label').first().text('Email Me').addClass('active-label');
-    $('.aside-form .form-wrapper label').first().next().text('Call Me');
+    var emailLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Envoyer un email' : 'Email Me';
+    var callLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Appelle-moi' : 'Call Me'
+    var securityLabel = window.location.pathname.substring(1,3) === 'fr' ? 'Entrer le code de sécurité:' : 'Enter security code:'
+    
+    $('.aside-form .form-wrapper label').first().text(emailLabel).addClass('active-label');
+    $('.aside-form .form-wrapper label').first().next().text(callLabel);
+    $('.captcha-field-1 label').text(securityLabel);
+    
     $('.phone-field').hide()
       $('.aside-form .form-wrapper label').on('click', function(){
         if(!$(this).hasClass('active-label')){
@@ -28,7 +34,7 @@
       var inview;
       function createSticky(){
         // var isDesktop = $(window).width() > 768;
-        var inviewElement = /*isDesktop ?*/ $('.gif-feature')[0] /*: $('.form-clear-el')[0]*/
+        var inviewElement = /*isDesktop ?*/ $('.gif-feature-text h3')[0] /*: $('.form-clear-el')[0]*/
 
         if($(window).height() > ($('.sticky-form').height())){
           sticky = new Waypoint.Sticky({
@@ -53,13 +59,13 @@
           createSticky();
       }
       function resizeSticky(){
-        if (Modernizr.mq('(min-width: 992px)')) {
+        if (Modernizr.mq('(min-width: 1024px)')) {
           // $('.sticky-form').width(($('.container').outerWidth() * 0.25 - 30));
           $('.sticky-form').width(265);
         }
-        else if(Modernizr.mq('(min-width: 768px)') && Modernizr.mq('(max-width: 992px)')) {
+        else if(Modernizr.mq('(min-width: 768px)') && Modernizr.mq('(max-width: 1024px)')) {
           // $('.sticky-form').width(($('.zoneMainContent').width() * 0.3333333 - 30));
-          $('.sticky-form').width(265);
+          $('.sticky-form').width(225);
         }
         else{
           $('.sticky-form').width($('.zoneMainContent').width());
@@ -69,4 +75,14 @@
         resizeSticky();
       });
       initStickies();
+
+
+
+      $(document).on('click', '.form-wrapper input[type="submit"]', function() {
+        $(this).click(function() { return false; })
+        $(this).addClass('disabled');
+        return true;
+      })
+
+
     });

@@ -87,7 +87,7 @@
     font-size: 52px;
     line-height: 130%;
     max-width: 550px;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
     text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .picture-hero .hero-sub-headline {
-    font-family: Avenir-Medium, sans-serif;
+    font-family: 'AvenirLT-Medium', sans-serif;
     font-size: 26px;
     color: #545454;
     width: 70%;
@@ -158,7 +158,7 @@
     color: #ffffff;
     position: relative;
     display: inline-block;
-    font-family: Avenir-Black, sans-serif;
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .aside-form header h2:after {
@@ -245,7 +245,7 @@
 
 .aside-form .form-wrapper label {
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
     margin: 17px 0 0 0;
     border: 2px solid #0083ca;
@@ -298,7 +298,7 @@
     line-height: 49px;
     color: #09426B;
     font-weight: 700;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
     max-width: 380px;
 }
 
@@ -339,7 +339,7 @@
     font-size: 36px;
     line-height: 49px;
     color: #ffffff;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .gif-feature p {
@@ -347,6 +347,10 @@
     font-size: 18px;
     line-height: 24px;
     max-width: 360px;
+}
+
+.eco-friendly {
+    margin-top: 10px;
 }
 
 .detail-list-feature {
@@ -380,7 +384,7 @@
 .detail-list-feature .headline-box h3 {
     font-size: 36px;
     line-height: 49px;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .detail-list-feature .headline-box .btn-thin-white {
@@ -413,7 +417,7 @@
     font-size: 24px;
     line-height: 28px;
     padding-bottom: 5px;
-    font-family: Avenir-Black;
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .detail-list-feature a.feature-list-item-headline:hover {
@@ -423,9 +427,9 @@
 .detail-list-feature p {
     font-size: 16px;
     line-height: 22px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: #545454;
-    margin-bottom: 22px
+    margin-bottom: 50px
 }
 
 .detail-list-feature .squigle {
@@ -444,7 +448,7 @@
 .quote-grid-item {
     background: #F0EFF3;
     flex-basis: 25%;
-    font-family: Avenir-Medium, sans-serif;
+    font-family: 'AvenirLT-Medium', sans-serif;
 }
 
 .quote-grid-image img {
@@ -472,7 +476,7 @@
     font-style: normal;
     text-transform: uppercase;
     margin: 0;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 .quote-grid blockquote footer:before {
@@ -491,7 +495,7 @@
     color: #005795;
     font-size: 36px;
     line-height: 49px;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
     text-transform: uppercase;
 }
 
@@ -508,7 +512,7 @@
     color: #0083CA;
     font-size: 26px;
     line-height: 36px;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .article-feature p {
@@ -828,9 +832,9 @@
 
 .get-started-title {
     color: #0083ca;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 36px;
-    font-family: 'AvenirLT-Black';
+    font-family: 'AvenirLT-Black', sans-serif;
 }
 
 .form-clear-el {
@@ -848,7 +852,7 @@
     text-align: left !important;
     font-size: 14px !important;
     margin-bottom: 0 !important;
-    font-family: AvenirLT-Book;
+    font-family: 'AvenirLT-Book', sans-serif;
     font-weight: inherit;
 }
 
@@ -858,4 +862,10 @@
 
 .CaptchaTable img {
     height: 32px;
+}
+
+.captcha-field-1 img {
+    margin-top: 16px;
+    -webkit-margin-start: -4px;
+    -moz-margin-start: -4px;
 }

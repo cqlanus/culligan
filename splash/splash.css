@@ -45,7 +45,7 @@
 }
 
 .header-top {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(240, 239, 243, .5);
     margin-bottom: -46px;
     position: relative;
     z-index: 10;
@@ -83,6 +83,7 @@
 
 .banner-section-logo {
     text-align: center;
+    margin-top: 20px;
 }
 
 .home-section {
@@ -120,17 +121,21 @@
 }
 
 .culligan-section-icon img {
-    width: 40px;
+    width: 36px;
     padding-bottom: 15px;
 }
 
 .culligan-section-title {
     font-size: 26px;
     line-height: 36px;
-    font-family: Avenir-Medium;
+    font-family: AvenirLT-Medium;
     color: #0083ca;
     letter-spacing: 0;
     padding-bottom: 10px;
+}
+
+.culligan-section-title a {
+    color: #0083ca;
 }
 
 .culligan-section-container a:hover {
@@ -142,10 +147,10 @@
 }
 
 .culligan-section-text {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     color: #545454;
-    line-height: 130%;
+    line-height: 21px;
 }
 
 ._footer {
@@ -161,13 +166,14 @@
 
 .footer-title {
     font-size: 24px;
-    font-family: Avenir-Black;
+    font-family: AvenirLT-Black;
 }
 
 .footer-list-item {
     font-size: 16px;
     padding: 5px 0;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    line-height: 19px;
 }
 
 .footer-list-item a {
@@ -191,10 +197,12 @@
 }
 
 .mobile-nav a {
-    display: flex;
+    /* display: flex; */
 }
 
-.mobile-nav-icon {}
+.mobile-nav-icon {
+    display: inline;
+}
 
 .mobile-nav-icon img {
     width: 30px;
@@ -205,6 +213,7 @@
     margin-top: 5px;
     margin-left: 10px;
     font-size: 18px;
+    display: inline;
 }
 
 .arrow {

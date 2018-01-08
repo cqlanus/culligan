@@ -38,7 +38,7 @@
 
 .hero-title,
 .form-title {
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 52px;
     color: #08385B;
     line-height: 71px;
@@ -52,7 +52,7 @@
 .hero-text,
 .form-text,
 .quote-text {
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     font-size: 26px;
     color: #545454;
     line-height: 36px
@@ -92,7 +92,7 @@
     background-color: #545454;
     color: white;
     font-size: 22px;
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -135,7 +135,19 @@
 }
 
 .contact-us-form-content input {
+    /* margin: 15px 0 !important; */
+}
+
+.name-field, .zip-field, .captcha-field-1 input {
     margin: 15px 0 !important;
+}
+
+.captcha-field-1 {
+    margin-top: 0px !important;
+}
+
+.zip-field {
+    margin-bottom: 0px !important;
 }
 
 .contact-us-form-content input.btn {
@@ -148,7 +160,7 @@
 
 .contact-us-form-content label {
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 30px;
     /* margin: 17px 0 0 0; */
     border: 2px solid #0083ca;
@@ -240,7 +252,7 @@
 /* ---- products section ---- */
 
 .products-section {
-    margin-top: 100px !important;
+    margin-top: 100px;
     background: rgba(240, 239, 243, 0.50);
 }
 
@@ -265,7 +277,7 @@
 }
 
 .products-grid-title {
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
     color: #09426B;
     line-height: 46px;
@@ -297,6 +309,24 @@
     margin-top: 20px;
     color: #000;
     display: block;
+}
+
+.left-align-btn {
+    display: inline-block;
+    width: fit-content;
+}
+
+.see-more-btn {
+    padding: 14px 20px;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 35px;
+    font-size: 19px;
+    color: #0083ca;
+    border: 1px solid #0083ca;
+    margin-top: 20px;
 }
 
 .products-title {}
@@ -346,7 +376,7 @@
 }
 
 .article-title {
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     font-size: 26px;
     color: #000000;
     margin-bottom: 0;
@@ -384,7 +414,7 @@
 
 .services-left {
     background: url('/getmedia/0c10956e-f218-4d77-93cd-584a56e57a66/droplets.aspx') no-repeat center center;
-    height: 500px;
+    height: 600px;
     background-size: cover;
     /* width: calc(100%-20px); */
     padding-top: 125px;
@@ -398,7 +428,7 @@
 }
 
 .tap-into-title {
-    font-family: Avenir-Black, sans-serif;
+    font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
     color: #08385B;
     line-height: 46px;
@@ -407,12 +437,13 @@
 .tap-into-text {
     font-family: Roboto;
     font-size: 16px;
+    line-height: 19px;
     color: #08385B;
 }
 
 .services-middle {
     background-color: #09426B;
-    height: 500px;
+    height: 600px;
     margin-left: -1.5rem;
 }
 
@@ -422,28 +453,28 @@
 
 .services-top {
     background-color: #0083CA;
-    height: calc(250px - .75rem);
+    height: calc(300px - .75rem);
     margin-left: -1.5rem;
 }
 
 .services-bottom {
     background-color: #B0D235;
-    height: calc(250px - .75rem);
+    height: calc(300px - .75rem);
     margin-left: -1.5rem;
 }
 
 .salt-delivery-text,
 .water-exchange-text,
 .top-right-text {
-    padding-top: 145px;
+    padding-top: 180px;
     padding-left: 10px;
-    font-family: Avenir-Medium, sans-serif;
+    font-family: AvenirLT-Medium, sans-serif;
     font-size: 26px;
     color: #FFFFFF;
 }
 
 .salt-delivery-text {
-    padding-top: 410px;
+    padding-top: 500px;
     width: 40%;
 }
 
@@ -489,6 +520,8 @@
     width: 275px;
     font-size: 18px;
     font-family: AvenirLT-Medium;
+    background-color: #005795;
+    margin-top: 30px;
 }
 
 /* quote section */
@@ -539,7 +572,7 @@
     }
 
     .hero-title h1 {
-        line-height: inherit;
+        line-height: 36px;
     }
 
     .form-title {
@@ -619,7 +652,7 @@
         width: 100%;
     }
     .arrow-down {
-        top: 460px;
+        top: 440px;
         z-index: 2;
     }
 
@@ -685,6 +718,7 @@
 
     .products-grid-title {
         font-size: 25px;
+        line-height: 36px;
     }
 
     .products-grid-item-text span {
@@ -704,12 +738,22 @@
 
     .services-left {
         margin-left: -.75rem;
-        height: 250px;
-        padding-top: 45px;
+        height: 280px;
+        padding-top: 35px;
     }
 
     .tap-into-block {
-        padding: 40px 25px;
+        padding: 30px 20px;
+    }
+
+    .tap-into-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .tap-into-text {
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .services-middle,
@@ -747,6 +791,11 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .left-align-btn {
+        display: block;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -774,6 +823,23 @@
     .infographic-section {
         margin-top: 200px;
     }
+
+    .products-grid {
+        padding: 30px;
+    }
+    .products-grid-box {
+        padding: 20px;
+    }
+
+   /*  .first-products-grid {
+        padding-bottom: 0 !important;
+    }
+
+    .second-products-grid {
+        padding: 25px;
+        margin: -30px !important;
+        margin-right: -1.5rem;
+    } */
 }
 
 @media screen and (max-width: 320px) {}
