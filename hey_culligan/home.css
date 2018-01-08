@@ -689,7 +689,7 @@
     }
     .picture-hero .cta-arrow {
         bottom: auto;
-        top: -24px;
+        top: 30px;
         left: 0;
     }
     .picture-hero .btn-thin {
@@ -780,7 +780,7 @@
     .picture-hero .cta-arrow {
         border-width: 35px 24px 0 24px;
         left: 20px;
-        top: -17px;
+        top: 35px;
     }
     .sticky-form {
         margin: 0 -18px;

@@ -630,6 +630,18 @@
         display: block;
     }
 
+    .form-block .col-sm-12,
+    .form-block .col-sm-5,
+    .form-block .col-sm-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-block .col-sm-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
 
 }
 
@@ -652,7 +664,7 @@
         width: 100%;
     }
     .arrow-down {
-        top: 440px;
+        top: 480px;
         z-index: 2;
     }
 

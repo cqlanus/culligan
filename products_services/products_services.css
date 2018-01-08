@@ -739,6 +739,18 @@ h2 {
     .contact-us-form {
         display: none;
     }
+
+    .form-container .col-sm-12,
+    .form-container .col-sm-5,
+    .form-container .col-sm-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-container .col-sm-3 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -767,7 +779,7 @@ h2 {
     }
 
     .cta-arrow {
-        top: 459px;
+        top: 440px;
         z-index: 3;
     }
     .tastier-block {
