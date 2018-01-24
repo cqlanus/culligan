@@ -1,6 +1,6 @@
 .hero-background {
 	/* background: url('/getmedia/b28082d6-9725-4d3a-89cf-0aade8863bbd/drinking-water-hero-lg.aspx') no-repeat center center; */
-	background: url('/getmedia/9581caa9-6be8-48d7-b4f5-16898e607193/drinking-water-hero-lg.aspx') no-repeat center center;
+	background: url('/getmedia/9581caa9-6be8-48d7-b4f5-16898e607193/drinking-water-hero-lg.aspx') no-repeat center right;
 }
 
 .infographic-below-graphics {
@@ -72,7 +72,7 @@
 	.reverse-osmosis-container {
 	    margin-top: -100px;
 	    margin-left: -5%;
-	    margin-right: -5%;
+	    /* margin-right: -5%; */
 	}
 
 	.reverse-osmosis {
@@ -89,7 +89,7 @@
 	}
 
 	.article2, .hero-background {
-	    margin-right: -1.5rem !important;
+	    /* margin-right: -1.5rem !important; */
 	}
 
 	.article-block-left {
@@ -113,7 +113,7 @@
 @media screen and (max-width: 425px) {
 	.reverse-osmosis-container {
 		margin-top: -30px;
-		margin-right: -2rem;
+		/* margin-right: -2rem; */
 	}
 
 	.infographic-side-graphics {

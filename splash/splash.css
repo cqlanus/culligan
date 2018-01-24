@@ -74,7 +74,7 @@
 }
 
 .banner-section {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .banner-section .columns {
@@ -118,6 +118,10 @@
     padding: 30px 25px;
     width: 60%;
     margin-left: 5%;
+}
+
+.culligan-section-container span {
+    display: block;
 }
 
 .culligan-section-icon img {
@@ -197,7 +201,7 @@
 }
 
 .mobile-nav a {
-    /* display: flex; */
+    display: block;
 }
 
 .mobile-nav-icon {

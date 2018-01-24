@@ -1,5 +1,5 @@
 .hero-background {
-	background: url('/getmedia/263e9797-c773-4d5e-8c9d-d4a1768799af/water-delivery-hero-lg.aspx') no-repeat center center;
+	background: url('/getmedia/263e9797-c773-4d5e-8c9d-d4a1768799af/water-delivery-hero-lg.aspx') no-repeat center right;
 }
 
 .piggy-container {
@@ -89,7 +89,7 @@
 }
 
 .products-section {
-	margin-right: -1.5rem;
+	/* margin-right: -1.5rem; */
 }
 
 .products-section-2 {
@@ -130,7 +130,7 @@
 		background: url('/getmedia/f75c065a-7b5d-487f-a8d1-d443847d2eb9/delivery-pricing.aspx') no-repeat center center !important;
 		background-size: cover !important;
         margin-left: -2.25rem;
-    	margin-right: -2.25rem;
+    	/* margin-right: -2.25rem; */
     	width: inherit !important;
 	}
 
@@ -148,7 +148,7 @@
 
 	.article2 {
 		display: inherit !important;
-		margin-right: -2.25rem !important;
+		/* margin-right: -2.25rem !important; */
 	}
 
 	.article-img-right {
@@ -165,7 +165,7 @@
 	}
 
 	.products-grid {
-		margin-right: -1.5rem !important;
+		/* margin-right: -1.5rem !important; */
 	}
 
 	.form-section {

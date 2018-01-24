@@ -1,5 +1,5 @@
 .hero-background {
-	background: url('/getmedia/a49c314a-4409-458a-ad1c-eb5c4267851c/softener-hero-lg.aspx') no-repeat center center;
+	background: url('/getmedia/a49c314a-4409-458a-ad1c-eb5c4267851c/softener-hero-lg.aspx') no-repeat center right;
 }
 
 .softer-life-container {
@@ -144,7 +144,7 @@
 	
 	.softer-life {
 		margin-left: -5%;
-		margin-top: 50px !important;
+		margin-top: 70px !important;
 	}
 
 	.softer-life-container {
@@ -152,7 +152,7 @@
 	}
 
 	.infographic-side-graphics {
-		margin-top: 100px;
+		margin-top: 140px;
 	}
 
 	.article-img-left {

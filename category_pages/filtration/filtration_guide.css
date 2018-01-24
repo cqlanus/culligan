@@ -11,6 +11,7 @@
     padding-bottom: 40px;
     margin-bottom: -.75rem !important;
     margin-top: 0 !important;
+    margin-right: 0 !important;
 }
 
 .hero-eyebrows {
@@ -159,6 +160,19 @@
     text-decoration: underline;
 }
 
+.see-more-btn {
+    padding: 14px 20px;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 35px;
+    font-size: 19px;
+    color: #0083ca;
+    border: 1px solid #0083ca;
+    margin-top: 20px;
+}
+
 .diy-solutions-block {
 	background: url('/getmedia/edf2b77e-bfe4-4686-b0b7-f7646e1dbe3c/diy-solutions.aspx') no-repeat center center;
 	height: 650px;
@@ -207,7 +221,8 @@
     color: white;
     padding: 20px 5%;
     font-size: 18px;
-    margin-right: -.75rem;
+    /* margin-right: -.75rem; */
+    display: block;
 }
 
 .culligan-blog-container {
@@ -238,6 +253,11 @@
 
 .culligan-blog-images {
     margin-bottom: 25px;
+}
+
+.culligan-blog-title a {
+    color: #0083ca;
+    padding-left: 15px;
 }
 
 .form-section {
@@ -448,6 +468,10 @@
 		display: none;
 	}
 
+    .arrow-down {
+        display: none;
+    }
+
     .form-block .col-sm-12,
     .form-block .col-sm-5,
     .form-block .col-sm-4 {
@@ -466,7 +490,7 @@
 	    letter-spacing: 5px;
 	}
 
-	.hero-title {
+	.hero-title, .form-title {
 	    font-size: 40px;
 	    line-height: 50px;
 	}
@@ -494,7 +518,12 @@
 	.drinking-water-systems-block,
 	.whole-house-filtration-block {
 		height: 200px !important;
+        margin-right: 0 !important;
 	}
+
+    .diy-solutions-block {
+        margin-right: 0 !important;
+    }
 
 	.diy-solutions-block,
 	.culligan-blog-block {
@@ -528,8 +557,9 @@
     .whole-house-filtration-block,
     .filtration-difference-img,
     .culligan-blog-container {
-        margin-right: -.75rem;
+        /* margin-right: -.75rem; */
     }
+
 
     .block-text-container {
         min-height: 0;
@@ -539,4 +569,10 @@
         padding-left: 5%;
     }
 
+}
+
+@media screen and (max-width: 425px) {
+    .mobile-text {
+        font-size: 16px;
+    }
 }

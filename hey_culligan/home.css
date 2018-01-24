@@ -451,6 +451,10 @@
     font-family: 'AvenirLT-Medium', sans-serif;
 }
 
+.quote-grid-item.has-video {
+    flex-basis: 50%;
+}
+
 .quote-grid-image img {
     max-width: 100%;
 }
@@ -588,6 +592,7 @@
     .picture-hero .cta-arrow {
         bottom: -40px;
         left: 20px;
+        display: none;
     }
     .aside-form header {
         display: block;
@@ -702,6 +707,7 @@
         position: relative;
         width: 95%;
         padding-left: 5%;
+        z-index: 9;
     }
     .btn-thin {
         width: 100%;
