@@ -1,0 +1,85 @@
+/* global style correction */
+
+.hero-background {
+	position: relative;
+	background-color: #FFFFFF;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: -.75rem !important;
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+}
+
+.hero-eyebrows {
+	letter-spacing: 4px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-family: Roboto-Regular, sans-serif;
+	font-size: 16px;
+	color: #545454;
+	line-height: 28px;
+}
+
+.hero-title, .form-title {
+	font-family: AvenirLT-Black, sans-serif;
+	font-size: 52px;
+	line-height: 61px;
+	color: #08385B;
+	letter-spacing: 0;
+}
+
+.hero-text, .form-text, .quote-text {
+	font-family: AvenirLT-Medium, sans-serif;
+	font-size: 26px;
+	line-height: 36px;
+	color: #545454;
+	letter-spacing: 0;
+}
+
+.arrow-down {
+	position: absolute;
+	top: 100%;
+	margin-top: -24px;
+	padding: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 48px 32.5px 0 32.5px;
+	border-color: #f8e61c transparent transparent transparent;
+}
+
+/*===========================Media Queries========================*/
+/*Tablet landscape*/
+@media screen and (max-width: 1200px) {
+	.main-nav li a {
+		height: 62px !important;
+	}
+}
+
+/*Tablet portrait breakpoint*/
+@media screen and (max-width: 768px) {
+	.hero-background {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+/*Phone breakpoint*/
+@media screen and (max-width: 600px) {
+	.hero-background {
+		background-size: contain;
+		padding-top: 85%;
+	}
+	.hero-title, .form-title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.hero-text {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.arrow-down {
+		top: auto;
+		margin-top: 0;
+		bottom: 400px
+	}
+}
