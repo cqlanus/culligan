@@ -9,6 +9,9 @@
 	margin-top: 0 !important;
 	margin-right: 0 !important;
 }
+.hero-content{
+	position: relative;
+}
 
 .hero-eyebrows {
 	letter-spacing: 4px;
@@ -38,9 +41,8 @@
 
 .arrow-down {
 	position: absolute;
-	top: 100%;
-	margin-top: -24px;
-	padding: 0;
+	bottom: -50px;
+	top: auto;
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -78,8 +80,7 @@
 		line-height: 22px;
 	}
 	.arrow-down {
-		top: auto;
-		margin-top: 0;
-		bottom: 400px
+		top: -50px;
+		bottom: auto;
 	}
 }
