@@ -1,0 +1,73 @@
+.hero-background {
+	background: url('/getmedia/522a4170-5a45-4b25-9aaf-27d848d5275b/WaterTestingKit_header_image.aspx') no-repeat top right;
+	background-size: contain;
+}
+
+.hero-eyebrows {
+    letter-spacing: 4px;
+    padding-bottom: 5px;
+	text-transform: uppercase;
+
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    color: #545454;
+    line-height: 28px;
+    /* width: 120%; */
+}
+.eyebrow-list{
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.eyebrow-list li{
+	list-style-type: none;
+    display: inline-block;
+}
+.eyebrow-list li::after{
+	content: "|";
+	padding: 0 10px;
+}
+.eyebrow-list li:last-child::after{
+	content: none;
+}
+.eyebrow-link {
+    color: #0083ca;
+}
+/*===========================Media Queries========================*/
+/*Mobile breakpoint*/
+@media screen and (max-width: 480px) {
+	.hero-background {
+		background-image: url('/getmedia/768cecc5-1d79-46db-8e14-51e8e98a4d7d/WaterTestingKit_header_image_mobile.aspx');
+		min-height: auto;
+	}
+}
+/* Small screen, retina, stuff to override above media query */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 480px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 480px),
+only screen and (                min-resolution: 192dpi) and (min-width: 480px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 480px) {
+	.hero-background {
+		background-image: url('/getmedia/76d9e6f9-7252-4d9e-a639-c366cc10414b/WaterTestingKit_header_image_mobile_2x.aspx');
+	}
+}
+/*Tablet breakpoint*/
+@media screen and (max-width: 640px) {
+
+}
+/* Large screen Retina-specific styles here */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 641px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 641px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 641px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 641px),
+only screen and (                min-resolution: 192dpi) and (min-width: 641px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 641px){
+	.hero-background {
+		background-image: url('/getmedia/9151ce4e-cc98-495d-aac1-7962a5b24f63/WaterTestingKit_header_image_2x.aspx');
+	}
+}
