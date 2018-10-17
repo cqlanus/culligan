@@ -1,15 +1,66 @@
 <div class="cms-shared-destination" data-cms-shared="subnav"></div>
-<section class="hero-background columns">
-	<div class="column is-offset-1-tablet is-two-thirds-tablet is-two-fifths-desktop hero-content">
-		<div class="hero-eyebrows">
-			<cms:CMSWebPartZone ZoneID="hero-eyebrows" runat="server" />
+<section class="hero-background">
+	<div class="columns grid-container">
+		<div class="column is-two-thirds-tablet is-5-desktop hero-content">
+			<div class="hero-eyebrows">
+				<cms:CMSWebPartZone ZoneID="hero-eyebrows" runat="server" />
+			</div>
+			<h2 class="hero-title">
+				<cms:CMSWebPartZone ZoneID="hero-title" runat="server" />
+			</h2>
+			<div class="hero-text">
+				<cms:CMSWebPartZone ZoneID="hero-text" runat="server" />
+			</div>
+			<div class="arrow-down"></div>
 		</div>
-		<h2 class="hero-title">
-			<cms:CMSWebPartZone ZoneID="hero-title" runat="server" />
-		</h2>
-		<div class="hero-text">
-			<cms:CMSWebPartZone ZoneID="hero-text" runat="server" />
+	</div>
+</section>
+<!-- <div class="columns grid-container">
+	<div class="column is-3-tablet is-offset-8-tablet">
+		<div class="contact-us-form">
+			<div class="contact-us-form-header">
+				<cms:CMSWebPartZone ZoneID="contact-us-title" runat="server" />
+			</div>
+			<div class="contact-us-form-content">
+				<div class="contact-us-form-text">
+					<cms:CMSWebPartZone ZoneID="contact-us-text" runat="server" />
+				</div>
+				<cms:CMSWebPartZone ZoneID="contact-us-form" runat="server" />
+			</div>
 		</div>
-		<div class="arrow-down"></div>
+	</div>
+</div> -->
+<section class="infographic-section columns grid-container">
+	<div class="infographic-side-graphic column is-4-tablet">
+		<!-- webpart includes image and div -->
+		<h3 class="infographic-side-heading">
+			<cms:CMSWebPartZone ZoneID="infographic-side-heading-1" runat="server" />
+		</h3>
+		<cms:CMSWebPartZone ZoneID="infographic-side-graphics-1" runat="server" />
+	</div>
+	<div class="infographic-image-right column is-6-tablet is-offset-1-tablet">
+		<!-- variable webpart: images/text/buttons -->
+		<cms:CMSWebPartZone ZoneID="infographic-image-left-1" runat="server" />
+	</div>
+</section>
+<section class="video-section grid-container">
+	<div class="columns">
+		<div class="column is-12">
+			<h3 class="video-section-heading">
+				<cms:CMSWebPartZone ZoneID="video-section-heading-1" runat="server" />
+			</h3>
+		</div>
+	</div>
+	<div class="columns">
+		<div class="column is-6-tablet">
+			<div class="video-cell">
+				<cms:CMSWebPartZone ZoneID="video-cell-1" runat="server" />
+			</div>
+		</div>
+		<div class="column is-6-tablet">
+			<div class="video-cell">
+				<cms:CMSWebPartZone ZoneID="video-cell-2" runat="server" />
+			</div>
+		</div>
 	</div>
 </section>
