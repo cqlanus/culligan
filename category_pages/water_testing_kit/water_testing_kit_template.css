@@ -3,6 +3,25 @@
 	max-width: 1170px;
 	margin: 0 auto;
 }
+.grid-band{
+	margin-bottom: 100px;
+	font-family: AvenirLT-Medium, sans-serif;
+	font-size: 16px;
+	color: #545454;
+}
+.button-cta--green{
+	display: inline-block;
+	padding: 26px 52px;
+	background-color: #B0D235;
+	border-radius: 4px;
+	color: #000000;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: normal;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
 .hero-background {
 	position: relative;
 	background-color: #FFFFFF;
@@ -19,9 +38,6 @@
 	letter-spacing: 4px;
 	padding-bottom: 5px;
 	text-transform: uppercase;
-	font-family: Roboto-Regular, sans-serif;
-	font-size: 16px;
-	color: #545454;
 	line-height: 28px;
 }
 
@@ -59,7 +75,8 @@
 	font-size: 16px;
 	line-height: 22px;
 }
-.infographic-side-heading, .video-section-heading{
+.infographic-side-heading, .video-section-heading, .how-to-section-heading{
+	font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
 	text-transform: uppercase;
     line-height: 49px;
@@ -85,6 +102,34 @@
 	height: 90%;
 	width: 90%;
 }
+/* ======================callout section =======================*/
+.callout-section{
+	background-color: rgba(240, 240, 240, 0.5);
+	padding: 100px 0;
+}
+/* ======================how to section =======================*/
+.how-to-section-list{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 16px;
+}
+	.how-to-section-list li{
+		font-family: AvenirLT-Black, sans-serif;
+		margin-bottom: 20px;
+		display: flex;
+		flex: 1 0 50%;
+	}
+		.how-to-section-list li img{
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+		}
+		.how-to-section-list-eyebrow{
+			font-family: AvenirLT-Medium, sans-serif;
+			display: block;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
 /* ======================contact us form =======================*/
 
 .contact-us-form {
@@ -245,10 +290,14 @@
 		display:flex;
 		flex-direction: column;
 	}
-		.infographic-side-heading, .video-section-heading{
+		.infographic-side-heading, .video-section-heading, .how-to-section-heading{
 			font-size: 34px;
 		}
 		.infographic-side-graphic{
 			order: 2;
 		}
+	.how-to-section-list{
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
 }
