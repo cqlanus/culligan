@@ -75,7 +75,7 @@
 	font-size: 16px;
 	line-height: 22px;
 }
-.infographic-side-heading, .video-section-heading, .how-to-section-heading{
+.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading{
 	font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
 	text-transform: uppercase;
@@ -130,6 +130,22 @@
 			letter-spacing: 2px;
 			text-transform: uppercase;
 		}
+/* ======================results section =======================*/
+.results-section-lists{
+	display: flex;
+	justify-content: space-between;
+}
+.results-section-description p{
+	font-size: 26px;
+}
+/* ======================more info section =======================*/
+.more-info-section p{
+	font-size: 26px;
+	text-align: center;
+}
+.more-info-section a{
+    color: #006cb3;
+}
 /* ======================contact us form =======================*/
 
 .contact-us-form {
@@ -290,7 +306,7 @@
 		display:flex;
 		flex-direction: column;
 	}
-		.infographic-side-heading, .video-section-heading, .how-to-section-heading{
+		.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading{
 			font-size: 34px;
 		}
 		.infographic-side-graphic{

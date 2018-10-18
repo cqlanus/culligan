@@ -74,21 +74,18 @@
 	<!--  The comprehensive kit section -->
 	<div class="columns grid-container">
 		<div class="infographic-side-graphic column is-4-tablet">
-			<!-- webpart includes image and div -->
 			<h3 class="infographic-side-heading">
 				<cms:CMSWebPartZone ZoneID="callout_infographic-side-heading-1" runat="server" />
 			</h3>
 			<cms:CMSWebPartZone ZoneID="callout_infographic-side-graphics-1" runat="server" />
 		</div>
 		<div class="infographic-image-right column is-6-tablet is-offset-1-tablet">
-			<!-- variable webpart: images/text/buttons -->
 			<cms:CMSWebPartZone ZoneID="callout_infographic-image-left-1" runat="server" />
 		</div>
 	</div>
 	<!--  how to use the kit section -->
 	<div class="columns grid-container is-multiline">
 		<div class="how-to-section column is-6-tablet">
-			<!-- webpart includes image and div -->
 			<h3 class="how-to-section-heading">
 				<cms:CMSWebPartZone ZoneID="how-to-section-heading" runat="server" />
 			</h3>
@@ -96,9 +93,59 @@
 		<div class="how-to-section-note column is-6-tablet">
 			<cms:CMSWebPartZone ZoneID="how-to-section-note" runat="server" />
 		</div>
-		<div class="how-to-section-list column is-12">
-			<!-- variable webpart: images/text/buttons -->
+		<div class="column is-12">
 			<cms:CMSWebPartZone ZoneID="how-to-section-list" runat="server" />
 		</div>
+	</div>
+	<!--  your results section -->
+	<div class="results-section grid-container">
+		<h3 class="results-section-heading">
+			<cms:CMSWebPartZone ZoneID="results-section-heading" runat="server" />
+		</h3>
+		<div class="results-section-description">
+			<cms:CMSWebPartZone ZoneID="results-section-description" runat="server" />
+		</div>
+		<div class="results-section-lists">
+			<cms:CMSWebPartZone ZoneID="results-section-list" runat="server" />
+		</div>
+	</div>
+</section>
+<!--  form section-->
+<section class="form-section columns grid-band">
+	<div class="column is-10-tablet is-offset-1-tablet">
+		<div class="columns">
+			<div class="column is-one-third-tablet">
+				<div class="form-sidebar">
+					<!-- <div class="hero-eyebrows">HEY CULLIGAN!</div> -->
+					<cms:CMSWebPartZone ZoneID="form-eyebrows" runat="server" />
+					<h2 class="form-title">
+						<!-- webpart text -->
+						<cms:CMSWebPartZone ZoneID="form-title" runat="server" />
+					</h2>
+					<div class="form-text">
+						<!-- webpart text -->
+						<cms:CMSWebPartZone ZoneID="form-text" runat="server" />
+					</div>
+				</div>
+			</div>
+			<div class="column is-two-thirds-tablet">
+				<div class="form-decoration">
+					<img src="/getmedia/19f6421d-6f5e-4c2d-acf6-aef3b0a86216/tight-wave.aspx" alt="Wave" class="form-wave-icon">
+					<!-- <div class="form-fine-print">Fields marked with * are required.</div> -->
+					<cms:CMSWebPartZone ZoneID="form-fine-print" runat="server" />
+				</div>
+				<div class="form-block">
+					<!-- webpart form -->
+					<cms:CMSWebPartZone ZoneID="form-block" runat="server" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--  more-info section -->
+<section class="more-info-section grid-band columns grid-container">
+	<div class="column is-6-tablet is-offset-3-tablet">
+		<cms:CMSWebPartZone ZoneID="more-info-section" runat="server" />
 	</div>
 </section>
