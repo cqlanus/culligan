@@ -111,8 +111,14 @@
 		font-size: 18px;
 		font-weight: normal;
 	}
-	.results-guide-tabs-content{
+	.results-guide-tabs-content{}
+	.results-guide-tabs-content > h3{
+		font-family: AvenirLT-Black, sans-serif;
+		font-size: 36px;
+		color: #000000;
+		margin-bottom: 16px;
 	}
+
 	.results-guide-section .content-tabs{
 		display: flex;
 		flex-wrap: wrap;
@@ -124,21 +130,20 @@
 			opacity: 0;
 		}
 		.content-tabs-label {
-			flex-grow: 1;
-			text-align: center;
-			width: 100%;
-			padding: 16px 20px 20px 20px;
-			border-top: 4px solid transparent;
 			background: #0083CA;
-			cursor: pointer;
-			font-weight: bold;
-			font-size: 18px;
+			border-top: 4px solid transparent;
 			color: #FFFFFF;
-			transition: background 0.1s, color 0.1s;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			font-weight: normal;
+			cursor: pointer;
+			flex-grow: 1;
+			font-family: Roboto-Bold, sans-serif;
 			font-size: 14px;
+			font-weight: normal;
+			letter-spacing: 1px;
+			padding: 16px 20px 20px 20px;
+			text-align: center;
+			text-transform: uppercase;
+			transition: background 0.1s, color 0.1s;
+			width: 100%;
 		}
 
 		.content-tabs-label:hover {
@@ -156,9 +161,22 @@
 		}
 		.content-tabs-panel {
 			display: none;
-			padding: 20px 30px 30px;
+			padding: 40px;
 			background: #F7F7F9;
 		}
+			.content-tabs-panel p{
+				font-family: Roboto-Light, sans-serif;
+				font-size: 16px;
+				line-height: 19px;
+			}
+			.content-tabs-panel h5{
+				font-family: Roboto-Medium, sans-serif;
+			}
+				.content-tabs-img{
+					margin-bottom: 30px;
+					max-width: 100%;
+				}
+
 
 		@media (min-width: 600px) {
 			.content-tabs-label{
@@ -173,7 +191,16 @@
 		.tab-input:checked + .content-tabs-label + .content-tabs-panel {
 			display: block;
 		}
-
+	.signs-icons-list li{
+		min-height: 50px;
+		margin-bottom: 15px;
+		padding-left: 15px;
+		font-family: Roboto, sans-serif;
+		font-size: 18px;
+		line-height: 1;
+	}
+	/* Icons */
+	.icon-not-visible{background: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg) no-repeat center left transparent;}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
