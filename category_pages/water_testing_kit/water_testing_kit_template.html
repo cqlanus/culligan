@@ -69,6 +69,93 @@
 		</div>
 	</div>
 </section>
+<!-- results guide section -->
+<section class="results-guide-section grid-band">
+	<div class="columns grid-container">
+		<div class="column is-12">
+			<h3 class="results-guide-section-heading">
+				<cms:CMSWebPartZone ZoneID="results-guide-section-heading" runat="server" />
+			</h3>
+		</div>
+	</div>
+	<div class="columns grid-container">
+		<div class="column is-4-tablet">
+			<ul class="results-guide-tabs">
+				<li>
+					<a href="#contentBacteria">Bacteria</a>
+				</li>
+				<li>
+					<a href="#contentCopper">Copper</a>
+				</li>
+				<li>
+					<a href="#contentIron">Iron</a>
+				</li>
+				<li>
+					<a href="#contentNitr">Nitrite / Nitrate</a>
+				</li>
+				<li>
+					<a href="#contentPH">pH</a>
+				</li>
+				<li>
+					<a href="#contentHardness">Hardness</a>
+				</li>
+				<li>
+					<a href="#contentChlorine">Chlorine</a>
+				</li>
+				<li>
+					<a href="#contentLead">Lead</a>
+				</li>
+				<li>
+					<a href="#contentPesticides">Pesticides</a>
+				</li>
+				<li>
+					<a href="#contentTDS">Total Dissolved Solids (TDS)</a>
+				</li>
+			</ul>
+		</div>
+		<div class="column is-8-tablet">
+			<article id="contentBacteria" class="results-guide-tabs-content">
+				<h1>Bacteria</h1>
+				<div class="content-tabs">
+					<input name="content-tabs" type="radio" id="tab-overview" checked="checked" class="tab-input"/>
+					<label for="tab-overview" class="content-tabs-label">Overview</label>
+					<div class="content-tabs-panel">
+						<div class="columns">
+							<div class="column is-half-tablet">
+								<p>What is lead?</p>
+								<img src="" alt="" class=""/>
+								<p>Lead is a naturally occurring metal that\'s used in a variety of products including paint, batteries, and pipes. Lead can enter your drinking water through old lead pipes or faucets, which is more common in homes built before 1986.</p>
+							</div>
+							<div class="column is-half-tablet">
+								<p>How will I know if my water is unsafe?</p>
+								<ul class="signs-icons-list">
+									<li>No visible sign</li>
+									<li>No distinct taste</li>
+									<li>No distinct odor</li>
+								</ul>
+								<p>Only a test can confirm contamination.</p>
+								<p> The EPA requires all community water systems to prepare an annual water quality report. You can obtain a copy of the latest report by contacting your water utility provider. If your water comes from a private water supply, check with your health department for more information.</p>
+							</div>
+						</div>
+					</div>
+					<input name="content-tabs" type="radio" id="tab-effects" class="tab-input"/>
+					<label for="tab-effects" class="content-tabs-label">effects</label>
+					<div class="content-tabs-panel">
+						effects
+					</div>
+					<input name="content-tabs" type="radio" id="tab-solution" class="tab-input"/>
+					<label for="tab-solution" class="content-tabs-label">solution</label>
+					<div class="content-tabs-panel">
+						solution
+					</div>
+				</div>
+			</article>
+			<article id="contentCopper" class="results-guide-tabs-content">
+				<h1>Copper</h1>
+			</article>
+		</div>
+	</div>
+</section>
 <!--  Gray callout section -->
 <section class="callout-section grid-band">
 	<!--  The comprehensive kit section -->
@@ -111,32 +198,34 @@
 	</div>
 </section>
 <!--  form section-->
-<section class="form-section columns grid-band">
-	<div class="column is-10-tablet is-offset-1-tablet">
-		<div class="columns">
-			<div class="column is-one-third-tablet">
-				<div class="form-sidebar">
-					<!-- <div class="hero-eyebrows">HEY CULLIGAN!</div> -->
-					<cms:CMSWebPartZone ZoneID="form-eyebrows" runat="server" />
-					<h2 class="form-title">
-						<!-- webpart text -->
-						<cms:CMSWebPartZone ZoneID="form-title" runat="server" />
-					</h2>
-					<div class="form-text">
-						<!-- webpart text -->
-						<cms:CMSWebPartZone ZoneID="form-text" runat="server" />
+<section class="form-section">
+	<div class="columns grid-container">
+		<div class="column is-10-tablet is-offset-1-tablet">
+			<div class="columns">
+				<div class="column is-one-third-tablet">
+					<div class="form-sidebar">
+						<!-- <div class="hero-eyebrows">HEY CULLIGAN!</div> -->
+						<cms:CMSWebPartZone ZoneID="form-eyebrows" runat="server" />
+						<h2 class="form-title">
+							<!-- webpart text -->
+							<cms:CMSWebPartZone ZoneID="form-title" runat="server" />
+						</h2>
+						<div class="form-text">
+							<!-- webpart text -->
+							<cms:CMSWebPartZone ZoneID="form-text" runat="server" />
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="column is-two-thirds-tablet">
-				<div class="form-decoration">
-					<img src="/getmedia/19f6421d-6f5e-4c2d-acf6-aef3b0a86216/tight-wave.aspx" alt="Wave" class="form-wave-icon">
-					<!-- <div class="form-fine-print">Fields marked with * are required.</div> -->
-					<cms:CMSWebPartZone ZoneID="form-fine-print" runat="server" />
-				</div>
-				<div class="form-block">
-					<!-- webpart form -->
-					<cms:CMSWebPartZone ZoneID="form-block" runat="server" />
+				<div class="column is-two-thirds-tablet">
+					<div class="form-decoration">
+						<img src="/getmedia/19f6421d-6f5e-4c2d-acf6-aef3b0a86216/tight-wave.aspx" alt="Wave" class="form-wave-icon">
+						<!-- <div class="form-fine-print">Fields marked with * are required.</div> -->
+						<cms:CMSWebPartZone ZoneID="form-fine-print" runat="server" />
+					</div>
+					<div class="form-block">
+						<!-- webpart form -->
+						<cms:CMSWebPartZone ZoneID="form-block" runat="server" />
+					</div>
 				</div>
 			</div>
 		</div>

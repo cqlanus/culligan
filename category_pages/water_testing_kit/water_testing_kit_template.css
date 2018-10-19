@@ -75,7 +75,7 @@
 	font-size: 16px;
 	line-height: 22px;
 }
-.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading{
+.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading, .results-guide-section-heading{
 	font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
 	text-transform: uppercase;
@@ -102,6 +102,78 @@
 	height: 90%;
 	width: 90%;
 }
+/* ======================results guide section =======================*/
+.results-guide-section{}
+	.results-guide-tabs a{
+		display:block;
+		padding: 24px;
+		color: #0083CA;
+		font-size: 18px;
+		font-weight: normal;
+	}
+	.results-guide-tabs-content{
+	}
+	.results-guide-section .content-tabs{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 700px;
+		background: #0083CA;
+	}
+		.content-tabs > .tab-input{
+			position: absolute;
+			opacity: 0;
+		}
+		.content-tabs-label {
+			flex-grow: 1;
+			text-align: center;
+			width: 100%;
+			padding: 16px 20px 20px 20px;
+			border-top: 4px solid transparent;
+			background: #0083CA;
+			cursor: pointer;
+			font-weight: bold;
+			font-size: 18px;
+			color: #FFFFFF;
+			transition: background 0.1s, color 0.1s;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-weight: normal;
+			font-size: 14px;
+		}
+
+		.content-tabs-label:hover {
+			text-decoration: underline;
+		}
+
+		.content-tabs-label:active {
+			background: #F7F7F9;
+		}
+
+		.tab-input:checked + .content-tabs-label {
+			background: #F7F7F9;
+			color: #0083CA;
+			border-top-color: #F4B144;
+		}
+		.content-tabs-panel {
+			display: none;
+			padding: 20px 30px 30px;
+			background: #F7F7F9;
+		}
+
+		@media (min-width: 600px) {
+			.content-tabs-label{
+				width: auto;
+			}
+			.content-tabs-panel {
+				order: 99;
+				flex-basis: 100%;
+			}
+		}
+
+		.tab-input:checked + .content-tabs-label + .content-tabs-panel {
+			display: block;
+		}
+
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
@@ -147,7 +219,9 @@
     color: #006cb3;
 }
 /* ======================contact us form =======================*/
-
+.form-section{
+	margin-bottom: 155px;
+}
 .contact-us-form {
     position: absolute;
     top: 817px;
@@ -306,7 +380,7 @@
 		display:flex;
 		flex-direction: column;
 	}
-		.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading{
+		.infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading, .results-guide-section-heading{
 			font-size: 34px;
 		}
 		.infographic-side-graphic{
