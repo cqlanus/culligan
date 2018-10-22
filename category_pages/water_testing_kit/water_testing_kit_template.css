@@ -247,6 +247,7 @@
 		align-items: center;
 		justify-content: flex-start;
 		width: 100%;
+		height: auto;
 		min-height: 50px;
 		margin-bottom: 15px;
 		padding-left: 65px;
@@ -254,12 +255,15 @@
 		font-size: 18px;
 		line-height: 1;
 	}
+		.signs-icons-list li div{
+			margin-bottom: 20px;
+		}
 	/* Icons */
 	.icon{
 		background-repeat: no-repeat;
 		background-position: center left;
 		background-color: transparent;
-		background-size: contain;
+		background-size: 50px 50px;
 	}
 	.icon--not-visible{background-image: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg);}
 	.icon--no-taste{background-image: url(/CulliganCom/media/images/water-testing-kit/no_taste.svg);}
@@ -273,7 +277,9 @@
 	.icon--taste{background-image: url(/CulliganCom/media/images/water-testing-kit/taste.svg);}
 	.icon--visible{background-image: url(/CulliganCom/media/images/water-testing-kit/visible.svg);}
 	.icon--kidney{background-image: url(/CulliganCom/media/images/water-testing-kit/Decreased_Kidney_function.svg);}
-	.icon--fatigue{background-image: url(/CulliganCom/media/images/water-testing-kit/Fatigue.svg);}
+	.icon--blue-baby{background-image: url(/CulliganCom/media/images/water-testing-kit/Blue_baby_syndrome.svg);}
+	.icon--respiratory{background-image: url(/CulliganCom/media/images/water-testing-kit/Respiratory_issues.svg);}
+	.icon--nervous{background-image: url(/CulliganCom/media/images/water-testing-kit/Nervous_system_damage.svg);}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
