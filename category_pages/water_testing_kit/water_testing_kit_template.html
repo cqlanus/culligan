@@ -80,85 +80,11 @@
 	</div>
 	<div class="columns grid-container">
 		<div class="column is-4-tablet">
-			<ul class="results-guide-tabs" role="tablist">
-				<li>
-					<button role="tab" aria-selected="true" aria-controls="contentBacteria">Bacteria</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentCopper">Copper</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentIron">Iron</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentNitr">Nitrite / Nitrate</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentPH">pH</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentHardness">Hardness</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentChlorine">Chlorine</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentLead">Lead</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentPesticides">Pesticides</button>
-				</li>
-				<li>
-					<button role="tab" aria-selected="false" aria-controls="contentTDS">Total Dissolved Solids (TDS)</button>
-				</li>
-			</ul>
+			<cms:CMSWebPartZone ZoneID="results-guide-section-contaminants" runat="server" />
+
 		</div>
 		<div class="column is-8-tablet">
-			<article id="contentBacteria" class="results-guide-tabs-content active">
-				<h3>Bacteria</h3>
-				<div class="content-tabs">
-					<input name="content-tabs" type="radio" id="tab-overview" checked="checked" class="tab-input"/>
-					<label for="tab-overview" class="content-tabs-label">Overview</label>
-					<div class="content-tabs-panel">
-						<div class="columns">
-							<div class="column is-half-tablet has-border">
-								<h5>What are bacteria?</h5>
-								<img src="/CulliganCom/media/images/water-testing-kit/Bacteria.jpg" srcset="/CulliganCom/media/images/water-testing-kit/Bacteria.jpg 1x, /CulliganCom/media/images/water-testing-kit/Bacteria2x.jpg 2x" alt="" class="content-tabs-img"/>
-								<p>Bacteria are microscopic single-celled organisms that are vital to our ecosystems.</p>
-								<p> Your kit tests for coliform and E. coli which normally live in the digestive tract and feces of humans and animals. Sewage overflows, water main breaks, and other environmental factors can cause bacterial contamination in drinking water.</p>
-								<p>Coliform bacteria are not typically harmful, but their presence can be indication of something more dangerous. E. coli is a species of coliform bacteria that can cause serious illness if ingested. </p>
-							</div>
-							<div class="column is-half-tablet">
-								<h5>How will I know if my water is unsafe?</h5>
-								<ul class="signs-icons-list">
-									<li class="icon icon--not-visible">No visible sign</li>
-									<li class="icon icon--no-taste">No distinct taste</li>
-									<li class="icon icon--no-odor">No distinct odor</li>
-								</ul>
-								<p>Only a test can confirm contamination.</p>
-								<p> The EPA requires all community water systems to prepare an annual water quality report. You can obtain a copy of the latest report by contacting your water utility provider. If your water comes from a private water supply, check with your health department for more information.</p>
-							</div>
-						</div>
-						<footer>
-							<h5>Tested positive for bacteria?</h5>
-							<a class="button-cta--green" href="connectForm">Connect with Culligan</a>
-						</footer>
-					</div>
-					<input name="content-tabs" type="radio" id="tab-effects" class="tab-input"/>
-					<label for="tab-effects" class="content-tabs-label">effects</label>
-					<div class="content-tabs-panel">
-						effects
-					</div>
-					<input name="content-tabs" type="radio" id="tab-solution" class="tab-input"/>
-					<label for="tab-solution" class="content-tabs-label">solution</label>
-					<div class="content-tabs-panel">
-						solution
-					</div>
-				</div>
-			</article>
-			<article id="contentCopper" class="results-guide-tabs-content">
-				<h1>Copper</h1>
-			</article>
+			<cms:CMSWebPartZone ZoneID="results-guide-section-descriptions" runat="server" />
 		</div>
 	</div>
 </section>

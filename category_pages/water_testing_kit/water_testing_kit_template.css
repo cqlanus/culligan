@@ -19,7 +19,14 @@
 	line-height: 1;
 	font-weight: normal;
 }
-
+.content-bulletted-list{
+	list-style-type: disc;
+	font-family: Roboto, sans-serif;
+	padding-left: 30px;
+}
+.content-bulletted-list li{
+	margin-bottom: 15px;
+}
 .hero-background {
 	position: relative;
 	background-color: #FFFFFF;
@@ -147,11 +154,19 @@
 		color: #000000;
 		margin-bottom: 16px;
 	}
+	.results-guide-tabs-content footer{
+		margin: 0;
+		padding: 24px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #F0EFF3;
+	}
 
 	.results-guide-section .content-tabs{
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 700px;
 		background: #0083CA;
 	}
 
@@ -199,15 +214,6 @@
 			margin-right: 30px;
 			padding-right: 42px;
 		}
-			.content-tabs-panel footer{
-				margin: 30px -40px -40px;
-				padding: 24px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				background-color: #F0EFF3;
-			}
 			.content-tabs-panel p{
 				font-family: Roboto-Light, sans-serif;
 				font-size: 16px;
@@ -253,10 +259,21 @@
 		background-repeat: no-repeat;
 		background-position: center left;
 		background-color: transparent;
+		background-size: contain;
 	}
 	.icon--not-visible{background-image: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg);}
 	.icon--no-taste{background-image: url(/CulliganCom/media/images/water-testing-kit/no_taste.svg);}
 	.icon--no-odor{background-image: url(/CulliganCom/media/images/water-testing-kit/no_smell.svg);}
+	.icon--odor{background-image: url(/CulliganCom/media/images/water-testing-kit/smell.svg);}
+	.icon--vomiting{background-image: url(/CulliganCom/media/images/water-testing-kit/Vomiting.svg);}
+	.icon--stomach-issues{background-image: url(/CulliganCom/media/images/water-testing-kit/Stomach%20issues.svg);}
+	.icon--hepatitis{background-image: url(/CulliganCom/media/images/water-testing-kit/liver_and_Hepatitis.svg);}
+	.icon--fever{background-image: url(/CulliganCom/media/images/water-testing-kit/Fever.svg);}
+	.icon--gastrointestinal{background-image: url(/CulliganCom/media/images/water-testing-kit/Gastrointestinal_issue.svg);}
+	.icon--taste{background-image: url(/CulliganCom/media/images/water-testing-kit/taste.svg);}
+	.icon--visible{background-image: url(/CulliganCom/media/images/water-testing-kit/visible.svg);}
+	.icon--kidney{background-image: url(/CulliganCom/media/images/water-testing-kit/Decreased_Kidney_function.svg);}
+	.icon--fatigue{background-image: url(/CulliganCom/media/images/water-testing-kit/Fatigue.svg);}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
