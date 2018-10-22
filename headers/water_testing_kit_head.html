@@ -1,0 +1,18 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+<!--results-guide-tabs tab functionality-->
+<script type='text/javascript'>
+    $(document).ready(function(){
+        $(document.body).on('click.resultsGuideTabs', '.results-guide-tabs button:not([aria-selected="true"])', function(e){
+            console.log("click");
+            e.preventDefault();
+            var self = $(this),
+                parent = $(this).closest('.results-guide-tabs');
+            var previous = parent.find('[aria-selected="true"]');
+            previous.attr('aria-selected', 'false');
+            self.attr('aria-selected', 'true');
+            $('#'+previous.attr('aria-controls')).removeClass("active");
+            $('#'+self.attr('aria-controls')).addClass("active");
+        });
+    });
+</script>
+<!--End results-guide-tabs tab functionality-->

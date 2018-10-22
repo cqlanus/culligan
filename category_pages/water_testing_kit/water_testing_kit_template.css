@@ -18,10 +18,8 @@
 	font-size: 18px;
 	line-height: 1;
 	font-weight: normal;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
 }
+
 .hero-background {
 	position: relative;
 	background-color: #FFFFFF;
@@ -75,6 +73,11 @@
 	font-size: 16px;
 	line-height: 22px;
 }
+	.infographic-side-graphic .button-cta--green{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 .infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading, .results-guide-section-heading{
 	font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
@@ -104,14 +107,40 @@
 }
 /* ======================results guide section =======================*/
 .results-guide-section{}
-	.results-guide-tabs a{
+	.results-guide-tabs{padding-right: 60px;}
+	.results-guide-tabs button{
 		display:block;
 		padding: 24px;
 		color: #0083CA;
 		font-size: 18px;
 		font-weight: normal;
+		text-align: left;
+		border-radius: 0;
+		background-color: #FFFFFF;
+		border: none;
+		width: 100%;
 	}
-	.results-guide-tabs-content{}
+	/*  selected tab*/
+	.results-guide-tabs button[aria-selected="true"]{
+		background-color: #005795;
+		color: #FFFFFF;
+		position: relative;
+	}
+		/* selected tab arrow */
+		.results-guide-tabs button[aria-selected="true"]::after{
+			content: '';
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: 50%;
+		    transform: translateY(-50%);
+			left: 100%;
+			border-style: solid;
+			border-width: 15px 0 15px 20px;
+			border-color: transparent transparent transparent #005795;
+		}
+	.results-guide-tabs-content{display: none;}
+	.results-guide-tabs-content.active{display: block;}
 	.results-guide-tabs-content > h3{
 		font-family: AvenirLT-Black, sans-serif;
 		font-size: 36px;
@@ -125,6 +154,7 @@
 		max-width: 700px;
 		background: #0083CA;
 	}
+
 		.content-tabs > .tab-input{
 			position: absolute;
 			opacity: 0;
@@ -164,6 +194,20 @@
 			padding: 40px;
 			background: #F7F7F9;
 		}
+		.content-tabs-panel .has-border{
+			border-right: 4px solid #F0EFF3;
+			margin-right: 30px;
+			padding-right: 42px;
+		}
+			.content-tabs-panel footer{
+				margin: 30px -40px -40px;
+				padding: 24px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				background-color: #F0EFF3;
+			}
 			.content-tabs-panel p{
 				font-family: Roboto-Light, sans-serif;
 				font-size: 16px;
@@ -191,16 +235,28 @@
 		.tab-input:checked + .content-tabs-label + .content-tabs-panel {
 			display: block;
 		}
+	.signs-icons-list{margin-bottom: 24px;}
 	.signs-icons-list li{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 100%;
 		min-height: 50px;
 		margin-bottom: 15px;
-		padding-left: 15px;
+		padding-left: 65px;
 		font-family: Roboto, sans-serif;
 		font-size: 18px;
 		line-height: 1;
 	}
 	/* Icons */
-	.icon-not-visible{background: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg) no-repeat center left transparent;}
+	.icon{
+		background-repeat: no-repeat;
+		background-position: center left;
+		background-color: transparent;
+	}
+	.icon--not-visible{background-image: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg);}
+	.icon--no-taste{background-image: url(/CulliganCom/media/images/water-testing-kit/no_taste.svg);}
+	.icon--no-odor{background-image: url(/CulliganCom/media/images/water-testing-kit/no_smell.svg);}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
