@@ -280,6 +280,10 @@
 	.icon--blue-baby{background-image: url(/CulliganCom/media/images/water-testing-kit/Blue_baby_syndrome.svg);}
 	.icon--respiratory{background-image: url(/CulliganCom/media/images/water-testing-kit/Respiratory_issues.svg);}
 	.icon--nervous{background-image: url(/CulliganCom/media/images/water-testing-kit/Nervous_system_damage.svg);}
+	.icon--heart{background-image: url(/CulliganCom/media/images/water-testing-kit/Cardiovascular_effects.svg);}
+	.icon--bladder{background-image: url(/CulliganCom/media/images/water-testing-kit/Bladder_cancer.svg);}
+	.icon--reproductive{background-image: url(/CulliganCom/media/images/water-testing-kit/Reproductive_problems.svg);}
+	.icon--hearing{background-image: url(/CulliganCom/media/images/water-testing-kit/Impaired_hearing.svg);}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
