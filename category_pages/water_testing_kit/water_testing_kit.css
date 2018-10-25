@@ -24,12 +24,6 @@
 .eyebrow-link {
     color: #0083ca;
 }
-.how-to-section-list li:nth-child(1){order:1;}
-.how-to-section-list li:nth-child(2){order:3;}
-.how-to-section-list li:nth-child(3){order:5;}
-.how-to-section-list li:nth-child(4){order:2;}
-.how-to-section-list li:nth-child(5){order:4;}
-.how-to-section-list li:nth-child(6){order:6;}
 /*===========================Media Queries========================*/
 /*Mobile breakpoint*/
 @media screen and (max-width: 600px) {

@@ -50,7 +50,7 @@
 </div> -->
 <!--  The essential water kit section -->
 <section class="infographic-section grid-band">
-	<div class="columns grid-container">
+	<div class="columns grid-container mobile-flip">
 		<div class="infographic-side-graphic column is-4-tablet">
 			<!-- webpart includes image and div -->
 			<h3 class="infographic-side-heading">
@@ -108,7 +108,7 @@
 <!--  Gray callout section -->
 <section class="callout-section grid-band">
 	<!--  The comprehensive kit section -->
-	<div class="columns grid-container">
+	<div class="columns grid-container mobile-flip">
 		<div class="infographic-side-graphic column is-4-tablet">
 			<h3 class="infographic-side-heading">
 				<cms:CMSWebPartZone ZoneID="callout_infographic-side-heading-1" runat="server" />
@@ -134,15 +134,17 @@
 		</div>
 	</div>
 	<!--  your results section -->
-	<div class="results-section grid-container">
-		<h3 class="results-section-heading">
-			<cms:CMSWebPartZone ZoneID="results-section-heading" runat="server" />
-		</h3>
-		<div class="results-section-description">
-			<cms:CMSWebPartZone ZoneID="results-section-description" runat="server" />
-		</div>
-		<div class="results-section-lists">
-			<cms:CMSWebPartZone ZoneID="results-section-list" runat="server" />
+	<div class="results-section grid-container columns">
+		<div class="column is-12">
+			<h3 class="results-section-heading">
+				<cms:CMSWebPartZone ZoneID="results-section-heading" runat="server" />
+			</h3>
+			<div class="results-section-description">
+				<cms:CMSWebPartZone ZoneID="results-section-description" runat="server" />
+			</div>
+			<div class="results-section-lists">
+				<cms:CMSWebPartZone ZoneID="results-section-list" runat="server" />
+			</div>
 		</div>
 	</div>
 </section>
