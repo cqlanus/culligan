@@ -1,15 +1,23 @@
+<!-- <script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fCustom%2fjquery.waypoints.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="~/CMSPages/GetResource.ashx?scriptfile=~/CMSScripts/Custom/contact-us-form.js"></script> -->
 <!--results-guide-tabs tab functionality-->
 <script type='text/javascript'>
     $(document).ready(function(){
-        $(document.body).on('click.resultsGuideTabs', '.results-guide-tabs button:not([aria-selected="true"])', function(e){
+        $(document.body).on('click.resultsGuideTabs', '.results-guide-tabs button', function(e){
             e.preventDefault();
             var self = $(this),
-                parent = $(this).closest('.results-guide-tabs');
-            var previous = parent.find('[aria-selected="true"]');
-            previous.attr('aria-selected', 'false');
-            self.attr('aria-selected', 'true');
-            $('#'+previous.attr('aria-controls')).removeClass("active");
-            $('#'+self.attr('aria-controls')).addClass("active");
+                parent = $(this).closest('.results-guide-tabs'),
+                previous = parent.find('[aria-selected="true"]');
+            if(self.attr('aria-selected') !== 'true'){
+                previous.attr('aria-selected', 'false').parent().removeClass('active');
+                self.attr('aria-selected', 'true').parent().addClass('active');
+                $('#'+previous.attr('aria-controls')).removeClass("active");
+                $('#'+self.attr('aria-controls')).addClass("active");
+            }
+            parent.toggleClass('open').find('li:not(.active, .results-guide-tabs-toggle)').each(function(ind, el){
+                var li = $(el);
+                li.css({top:li.outerHeight()*(1+ind)});
+            });
         });
     });
 </script>
