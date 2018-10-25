@@ -5,7 +5,7 @@
 }
 .grid-band{
 	margin-bottom: 100px;
-	font-family: AvenirLT-Medium, sans-serif;
+	/* font-family: AvenirLT-Medium, sans-serif; */
 	font-size: 16px;
 	color: #545454;
 }
@@ -74,17 +74,16 @@
 }
 /*=======================infographic section====================*/
 .infographic-side-graphic, .video-section{
-	font-family: AvenirLT-Black, sans-serif;
+	font-family: Roboto, sans-serif;
 	letter-spacing: 0;
-	color: #545454;
-	font-size: 16px;
 	line-height: 22px;
 }
-	.infographic-side-graphic .button-cta--green{
-		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
+	.infographic-side-graphic strong, .infographic-side-graphic p{
+		color: #545454;
+		font-family: Roboto, sans-serif;
+		font-size: 16px;
 	}
+	.infographic-side-graphic strong{font-weight: 500;}
 .infographic-side-heading, .video-section-heading, .how-to-section-heading, .results-section-heading, .results-guide-section-heading{
 	font-family: AvenirLT-Black, sans-serif;
     font-size: 36px;
@@ -163,6 +162,11 @@
 		align-items: center;
 		background-color: #F0EFF3;
 	}
+		.results-guide-tabs-content footer h5{
+			font-family: Roboto, sans-serif;
+			font-weight: 500;
+			font-size: 16px;
+		}
 
 	.results-guide-section .content-tabs{
 		display: flex;
@@ -289,25 +293,32 @@
 	background-color: rgba(240, 240, 240, 0.5);
 	padding: 100px 0;
 }
+	.callout-section .grid-container:not(:last-child){
+		margin-bottom: 100px;
+	}
 /* ======================how to section =======================*/
+.how-to-section{
+	font-family: Roboto, sans-serif;
+}
 .how-to-section-list{
 	display: flex;
 	flex-wrap: wrap;
-	font-size: 16px;
 }
 	.how-to-section-list li{
-		font-family: AvenirLT-Black, sans-serif;
 		margin-bottom: 20px;
 		display: flex;
 		flex: 1 0 50%;
 	}
+		.how-to-section-list li p{
+			font-weight: 500;
+			font-size: 16px;
+		}
 		.how-to-section-list li img{
 			width: 100px;
 			height: 100px;
 			margin-right: 20px;
 		}
 		.how-to-section-list-eyebrow{
-			font-family: AvenirLT-Medium, sans-serif;
 			display: block;
 			letter-spacing: 2px;
 			text-transform: uppercase;
