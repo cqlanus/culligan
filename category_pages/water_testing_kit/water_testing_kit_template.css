@@ -267,25 +267,26 @@ p{
 		background-color: transparent;
 		background-size: 50px 50px;
 	}
-	.icon--not-visible{background-image: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg);}
-	.icon--no-taste{background-image: url(/CulliganCom/media/images/water-testing-kit/no_taste.svg);}
-	.icon--no-odor{background-image: url(/CulliganCom/media/images/water-testing-kit/no_smell.svg);}
-	.icon--odor{background-image: url(/CulliganCom/media/images/water-testing-kit/smell.svg);}
-	.icon--vomiting{background-image: url(/CulliganCom/media/images/water-testing-kit/Vomiting.svg);}
-	.icon--stomach-issues{background-image: url(/CulliganCom/media/images/water-testing-kit/Stomach%20issues.svg);}
-	.icon--hepatitis{background-image: url(/CulliganCom/media/images/water-testing-kit/liver_and_Hepatitis.svg);}
+	.icon--bladder{background-image: url(/CulliganCom/media/images/water-testing-kit/Bladder_cancer.svg);}
+	.icon--blue-baby{background-image: url(/CulliganCom/media/images/water-testing-kit/Blue_baby_syndrome.svg);}
+	.icon--fatigue{background-image: url(/CulliganCom/media/images/water-testing-kit/Fatigue.svg);}
 	.icon--fever{background-image: url(/CulliganCom/media/images/water-testing-kit/Fever.svg);}
 	.icon--gastrointestinal{background-image: url(/CulliganCom/media/images/water-testing-kit/Gastrointestinal_issue.svg);}
+	.icon--hearing{background-image: url(/CulliganCom/media/images/water-testing-kit/Impaired_hearing.svg);}
+	.icon--heart{background-image: url(/CulliganCom/media/images/water-testing-kit/Cardiovascular_effects.svg);}
+	.icon--hepatitis{background-image: url(/CulliganCom/media/images/water-testing-kit/liver_and_Hepatitis.svg);}
+	.icon--kidney{background-image: url(/CulliganCom/media/images/water-testing-kit/Decreased_Kidney_function.svg);}
+	.icon--nervous{background-image: url(/CulliganCom/media/images/water-testing-kit/Nervous_system_damage.svg);}
+	.icon--no-odor{background-image: url(/CulliganCom/media/images/water-testing-kit/no_smell.svg);}
+	.icon--no-taste{background-image: url(/CulliganCom/media/images/water-testing-kit/no_taste.svg);}
+	.icon--not-visible{background-image: url(/CulliganCom/media/images/water-testing-kit/not_visible.svg);}
+	.icon--odor{background-image: url(/CulliganCom/media/images/water-testing-kit/smell.svg);}
+	.icon--reproductive{background-image: url(/CulliganCom/media/images/water-testing-kit/Reproductive_problems.svg);}
+	.icon--respiratory{background-image: url(/CulliganCom/media/images/water-testing-kit/Respiratory_issues.svg);}
+	.icon--stomach-issues{background-image: url(/CulliganCom/media/images/water-testing-kit/Stomach%20issues.svg);}
 	.icon--taste{background-image: url(/CulliganCom/media/images/water-testing-kit/taste.svg);}
 	.icon--visible{background-image: url(/CulliganCom/media/images/water-testing-kit/visible.svg);}
-	.icon--kidney{background-image: url(/CulliganCom/media/images/water-testing-kit/Decreased_Kidney_function.svg);}
-	.icon--blue-baby{background-image: url(/CulliganCom/media/images/water-testing-kit/Blue_baby_syndrome.svg);}
-	.icon--respiratory{background-image: url(/CulliganCom/media/images/water-testing-kit/Respiratory_issues.svg);}
-	.icon--nervous{background-image: url(/CulliganCom/media/images/water-testing-kit/Nervous_system_damage.svg);}
-	.icon--heart{background-image: url(/CulliganCom/media/images/water-testing-kit/Cardiovascular_effects.svg);}
-	.icon--bladder{background-image: url(/CulliganCom/media/images/water-testing-kit/Bladder_cancer.svg);}
-	.icon--reproductive{background-image: url(/CulliganCom/media/images/water-testing-kit/Reproductive_problems.svg);}
-	.icon--hearing{background-image: url(/CulliganCom/media/images/water-testing-kit/Impaired_hearing.svg);}
+	.icon--vomiting{background-image: url(/CulliganCom/media/images/water-testing-kit/Vomiting.svg);}
 /* ======================callout section =======================*/
 .callout-section{
 	background-color: rgba(240, 240, 240, 0.5);
@@ -538,7 +539,7 @@ p{
 	}
 
 	.signs-icons-list{margin-bottom: 0;}
-	.signs-icons-list:last-of-type{margin-bottom: 20px;}
+	.signs-icons-list + p{margin-top: 20px;}
 	.results-guide-section > .columns, .results-guide-section > .columns > .column{
 		padding-top: 0;
 		padding-bottom: 0;
@@ -626,12 +627,11 @@ p{
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.results-guide-section .grid-container:not(:first-child) .content-tabs-panel .column + .column{ padding-top: 0; }
 	.content-tabs-panel{
 		padding: 24px 12px;
 	}
 		.content-tabs-panel img{
 			display: none;
 		}
-
-
 }
