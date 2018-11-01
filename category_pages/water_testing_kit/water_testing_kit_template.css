@@ -263,7 +263,7 @@ p{
 	/* Icons */
 	.icon{
 		background-repeat: no-repeat;
-		background-position: center left;
+		background-position: top left;
 		background-color: transparent;
 		background-size: 50px 50px;
 	}
