@@ -60,6 +60,7 @@ p{
 	font-size: 52px;
 	line-height: 61px;
 	color: #08385B;
+	text-transform: uppercase;
 	letter-spacing: 0;
 }
 
@@ -299,10 +300,15 @@ p{
 .how-to-section{
 	font-family: Roboto, sans-serif;
 }
+ul.how-to-section-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .how-to-section-list li{
 	margin-bottom: 20px;
 	display: flex;
-	flex: 1 0 50%;
+	flex: 1 0;// 50%;
 	line-height: 19px;
 }
 	.how-to-section-list li:last-child{margin-bottom: 0;}
@@ -565,6 +571,7 @@ p{
 		line-height: 22px;
 	}
 	.arrow-down {
+		display: none;
 		top: -50px;
 		bottom: auto;
 	}

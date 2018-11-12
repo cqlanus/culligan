@@ -3,6 +3,7 @@
     $(document).ready(function(){
         $(document.body).on('click.resultsGuideTabs', '.results-guide-tabs button', function(e){
             e.preventDefault();
+            debugger;
             var self = $(this),
                 parent = $(this).closest('.results-guide-tabs'),
                 previous = parent.find('[aria-selected="true"]');

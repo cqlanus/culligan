@@ -1,5 +1,5 @@
 .hero-background {
-	background: url('/getmedia/522a4170-5a45-4b25-9aaf-27d848d5275b/WaterTestingKit_header_image.aspx') no-repeat top right;
+	background: url('/CulliganCom/media/photos/water-testing-kit/WaterTestingKit_header_image.jpg') no-repeat top right;
 	background-size: cover;
 	background-position: top right;
 }
@@ -28,7 +28,7 @@
 /*Mobile breakpoint*/
 @media screen and (max-width: 600px) {
 	.hero-background {
-		background-image: url('/getmedia/768cecc5-1d79-46db-8e14-51e8e98a4d7d/WaterTestingKit_header_image_mobile.aspx');
+		background-image: url('/CulliganCom/media/photos/water-testing-kit/WaterTestingKit_header_image_mobile.jpg');
 	}
 	.eyebrow-list{
 		flex-direction: column;
@@ -43,7 +43,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (max-width: 600px),
 only screen and (                min-resolution: 192dpi) and (max-width: 600px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 600px) {
 	.hero-background {
-		background-image: url('/getmedia/76d9e6f9-7252-4d9e-a639-c366cc10414b/WaterTestingKit_header_image_mobile_2x.aspx');
+		background-image: url('/CulliganCom/media/photos/water-testing-kit/WaterTestingKit_header_image_mobile_2x.jpg');
 	}
 }
 /*x-large breakpoint*/
@@ -73,6 +73,6 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 769px),
 only screen and (                min-resolution: 192dpi) and (min-width: 769px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 769px){
 	.hero-background {
-		background-image: url('/getmedia/9151ce4e-cc98-495d-aac1-7962a5b24f63/WaterTestingKit_header_image_2x.aspx');
+		background-image: url('/CulliganCom/media/photos/water-testing-kit/WaterTestingKit_header_image_2x.jpg');
 	}
 }
